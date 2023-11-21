@@ -1,0 +1,702 @@
+##Databases: KEGG PATHWAY, Reactome, Gene Ontology
+##Statistical test method: hypergeometric test / Fisher's exact test
+##FDR correction method: Benjamini and Hochberg
+
+#Term	Database	ID	Input number	Background number	P-Value	Corrected P-Value	Input	Hyperlink
+Metallothioneins bind metals	Reactome	R-HSA-5661231	4	11	8.04936761899e-10	1.86745328761e-07	MT2A|MT1G|MT1X|MT1E	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5661231
+Response to metal ions	Reactome	R-HSA-5660526	4	14	1.8009477185e-09	2.98075151114e-07	MT2A|MT1G|MT1X|MT1E	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5660526
+Mineral absorption	KEGG PATHWAY	hsa04978	5	53	2.14134447639e-09	2.98075151114e-07	MT1X|MT2A|MT1G|SLC30A1|MT1E	http://www.genome.jp/kegg-bin/show_pathway?hsa04978/hsa:7779%09red/hsa:4495%09red/hsa:4501%09red/hsa:4493%09red/hsa:4502%09red
+Cellular responses to external stimuli	Reactome	R-HSA-8953897	6	516	7.43181808603e-06	0.000470231398898	HSPA2|MT2A|CDKN1A|MT1E|MT1X|MT1G	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8953897
+Cytokine Signaling in Immune system	Reactome	R-HSA-1280215	7	836	9.92451656567e-06	0.000575621960809	MT2A|DTL|CDKN1A|MMP9|DUSP5|CCL20|IL17RB	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1280215
+Signal Transduction	Reactome	R-HSA-162582	11	2689	1.90513700124e-05	0.000883983568577	RGS16|PTGDR2|OMG|GALR2|CDKN1A|NR4A1|CDC20|DUSP5|MMP9|PTGDR|CCL20	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-162582
+Prostanoid ligand receptors	Reactome	R-HSA-391908	2	9	4.46833314859e-05	0.00163682098496	PTGDR|PTGDR2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-391908
+Immune System	Reactome	R-HSA-168256	9	2096	9.02067644114e-05	0.00298970990621	MT2A|DTL|CDKN1A|CDC20|CTSZ|MMP9|DUSP5|CCL20|IL17RB	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-168256
+IL-17 signaling pathway	KEGG PATHWAY	hsa04657	3	93	9.52590781328e-05	0.00301365083547	CCL20|IL17RB|MMP9	http://www.genome.jp/kegg-bin/show_pathway?hsa04657/hsa:6364%09red/hsa:4318%09red/hsa:55540%09red
+Eicosanoid ligand-binding receptors	Reactome	R-HSA-391903	2	15	0.000110107906787	0.00306540412496	PTGDR|PTGDR2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-391903
+Class A/1 (Rhodopsin-like receptors)	Reactome	R-HSA-373076	4	322	0.000222483956903	0.00573514200017	PTGDR|CCL20|PTGDR2|GALR2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-373076
+Signaling by Interleukins	Reactome	R-HSA-449147	5	619	0.000249763028833	0.00599431269199	DUSP5|CCL20|CDKN1A|IL17RB|MMP9	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-449147
+Constitutive Signaling by AKT1 E17K in Cancer	Reactome	R-HSA-5674400	2	25	0.000282541569969	0.006343513958	CDKN1A|NR4A1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5674400
+G alpha (i) signalling events	Reactome	R-HSA-418594	4	405	0.000524217671491	0.00976274821687	RGS16|CCL20|PTGDR2|GALR2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-418594
+Nuclear Receptor transcription pathway	Reactome	R-HSA-383280	2	40	0.000687106981542	0.0116573432163	NR2F6|NR4A1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-383280
+Transcriptional misregulation in cancer	KEGG PATHWAY	hsa05202	3	186	0.00069641008549	0.0116573432163	NR4A3|CDKN1A|MMP9	http://www.genome.jp/kegg-bin/show_pathway?hsa05202/hsa:1026%09red/hsa:4318%09red/hsa:8013%09red
+Bladder cancer	KEGG PATHWAY	hsa05219	2	41	0.000720209422849	0.0116573432163	CDKN1A|MMP9	http://www.genome.jp/kegg-bin/show_pathway?hsa05219/hsa:1026%09red/hsa:4318%09red
+GPCR ligand binding	Reactome	R-HSA-500792	4	454	0.000799712321243	0.0120999951214	PTGDR|CCL20|PTGDR2|GALR2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-500792
+Cytokine-cytokine receptor interaction	KEGG PATHWAY	hsa04060	3	294	0.00254021393434	0.0330527900894	CCL20|IL17RB|DTL	http://www.genome.jp/kegg-bin/show_pathway?hsa04060/hsa:6364%09red/hsa:55540%09red/hsa:10673%09red
+MAPK signaling pathway	KEGG PATHWAY	hsa04010	3	295	0.00256444061038	0.0330527900894	DUSP5|HSPA2|NR4A1	http://www.genome.jp/kegg-bin/show_pathway?hsa04010/hsa:3164%09red/hsa:3306%09red/hsa:1847%09red
+PI3K/AKT Signaling in Cancer	Reactome	R-HSA-2219528	2	88	0.00310907528822	0.0393439345563	CDKN1A|NR4A1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2219528
+GPCR downstream signalling	Reactome	R-HSA-388396	5	1108	0.00329051848338	0.0404813875337	PTGDR|CCL20|PTGDR2|RGS16|GALR2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-388396
+Rheumatoid arthritis	KEGG PATHWAY	hsa05323	2	91	0.00331528604802	0.0404813875337	CCL20|DTL	http://www.genome.jp/kegg-bin/show_pathway?hsa05323/hsa:6364%09red/hsa:10673%09red
+Prostate cancer	KEGG PATHWAY	hsa05215	2	97	0.00374640636847	0.0441948954654	CDKN1A|MMP9	http://www.genome.jp/kegg-bin/show_pathway?hsa05215/hsa:1026%09red/hsa:4318%09red
+Endocrine resistance	KEGG PATHWAY	hsa01522	2	98	0.00382066903737	0.0443197608335	CDKN1A|MMP9	http://www.genome.jp/kegg-bin/show_pathway?hsa01522/hsa:1026%09red/hsa:4318%09red
+Signaling by GPCR	Reactome	R-HSA-372790	5	1170	0.00414431767194	0.0465233080592	PTGDR|CCL20|PTGDR2|RGS16|GALR2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-372790
+Generic Transcription Pathway	Reactome	R-HSA-212436	5	1193	0.00449823088999	0.0481677206969	NR2F6|NR4A3|CDKN1A|NR4A1|ZNF442	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-212436
+Interleukin-4 and Interleukin-13 signaling	Reactome	R-HSA-6785807	2	108	0.00460076737103	0.0481677206969	CDKN1A|MMP9	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6785807
+TNF signaling pathway	KEGG PATHWAY	hsa04668	2	112	0.0049317098357	0.0481677206969	CCL20|MMP9	http://www.genome.jp/kegg-bin/show_pathway?hsa04668/hsa:6364%09red/hsa:4318%09red
+TFAP2 (AP-2) family regulates transcription of cell cycle factors	Reactome	R-HSA-8866911	1	5	0.00548674597398	0.0481677206969	CDKN1A	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8866911
+Cell cycle	KEGG PATHWAY	hsa04110	2	124	0.00598832671083	0.0489368581554	CDKN1A|CDC20	http://www.genome.jp/kegg-bin/show_pathway?hsa04110/hsa:1026%09red/hsa:991%09red
+@@Disease	Reactome	R-HSA-1643685	2	1049	0.250501538385	0.263367176309	CDKN1A|NR4A1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1643685
+@@Cell Cycle	Reactome	R-HSA-1640170	3	629	0.0199707026523	0.0634425661644	HSPA2|CDKN1A|CDC20	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1640170
+Phosphorylation of Emi1	Reactome	R-HSA-176417	1	6	0.00639835358066	0.0489368581554	CDC20	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-176417
+RNA Polymerase II Transcription	Reactome	R-HSA-73857	5	1316	0.00676771610948	0.0500831719262	NR2F6|NR4A3|CDKN1A|NR4A1|ZNF442	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-73857
+RUNX3 regulates CDKN1A transcription	Reactome	R-HSA-8941855	1	7	0.00730914876492	0.0500831719262	CDKN1A	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8941855
+Zinc efflux and compartmentalization by the SLC30 family	Reactome	R-HSA-435368	1	7	0.00730914876492	0.0500831719262	SLC30A1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-435368
+Estrogen signaling pathway	KEGG PATHWAY	hsa04915	2	138	0.00733977519608	0.0500831719262	HSPA2|MMP9	http://www.genome.jp/kegg-bin/show_pathway?hsa04915/hsa:4318%09red/hsa:3306%09red
+Sema4D mediated inhibition of cell attachment and migration	Reactome	R-HSA-416550	1	8	0.00821913223009	0.0519010292701	RND1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-416550
+Axonal growth inhibition (RHOA activation)	Reactome	R-HSA-193634	1	9	0.00912830467897	0.0526512664302	OMG	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-193634
+AKT phosphorylates targets in the nucleus	Reactome	R-HSA-198693	1	9	0.00912830467897	0.0526512664302	NR4A1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-198693
+Cushing syndrome	KEGG PATHWAY	hsa04934	2	155	0.00914820772305	0.0526512664302	CDKN1A|NR4A1	http://www.genome.jp/kegg-bin/show_pathway?hsa04934/hsa:3164%09red/hsa:1026%09red
+Gene expression (Transcription)	Reactome	R-HSA-74160	5	1448	0.00999602087207	0.0526512664302	NR2F6|NR4A3|CDKN1A|NR4A1|ZNF442	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-74160
+p75NTR regulates axonogenesis	Reactome	R-HSA-193697	1	10	0.0100366668137	0.0526512664302	OMG	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-193697
+Hepatitis B	KEGG PATHWAY	hsa05161	2	163	0.0100612333839	0.0526512664302	CDKN1A|MMP9	http://www.genome.jp/kegg-bin/show_pathway?hsa05161/hsa:1026%09red/hsa:4318%09red
+Peptide ligand-binding receptors	Reactome	R-HSA-375276	2	188	0.0131622769238	0.0562649127759	CCL20|GALR2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-375276
+AKT phosphorylates targets in the cytosol	Reactome	R-HSA-198323	1	14	0.0136620262344	0.0562649127759	CDKN1A	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-198323
+Attenuation phase	Reactome	R-HSA-3371568	1	14	0.0136620262344	0.0562649127759	HSPA2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-3371568
+SEMA3A-Plexin repulsion signaling by inhibiting Integrin adhesion	Reactome	R-HSA-399955	1	14	0.0136620262344	0.0562649127759	RND1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-399955
+TP53 Regulates Transcription of Genes Involved in G1 Cell Cycle Arrest	Reactome	R-HSA-6804116	1	14	0.0136620262344	0.0562649127759	CDKN1A	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6804116
+Viral carcinogenesis	KEGG PATHWAY	hsa05203	2	201	0.0149189552769	0.0582001304984	CDKN1A|CDC20	http://www.genome.jp/kegg-bin/show_pathway?hsa05203/hsa:1026%09red/hsa:991%09red
+Proteoglycans in cancer	KEGG PATHWAY	hsa05205	2	203	0.0151977448443	0.0582001304984	CDKN1A|MMP9	http://www.genome.jp/kegg-bin/show_pathway?hsa05205/hsa:1026%09red/hsa:4318%09red
+FOXO-mediated transcription of cell cycle genes	Reactome	R-HSA-9617828	1	17	0.0163725718206	0.0587387112741	CDKN1A	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-9617828
+TNF receptor superfamily (TNFSF) members mediating non-canonical NF-kB pathway	Reactome	R-HSA-5676594	1	17	0.0163725718206	0.0587387112741	DTL	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5676594
+Zinc transporters	Reactome	R-HSA-435354	1	17	0.0163725718206	0.0587387112741	SLC30A1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-435354
+Metabolism of Angiotensinogen to Angiotensins	Reactome	R-HSA-2022377	1	18	0.0172744766501	0.0610306383171	CTSZ	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2022377
+Human T-cell leukemia virus 1 infection	KEGG PATHWAY	hsa05166	2	219	0.0175083420543	0.0612352063808	CDKN1A|CDC20	http://www.genome.jp/kegg-bin/show_pathway?hsa05166/hsa:1026%09red/hsa:991%09red
+Conversion from APC/C:Cdc20 to APC/C:Cdh1 in late anaphase	Reactome	R-HSA-176407	1	19	0.0181755774586	0.0629363279162	CDC20	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-176407
+Inactivation of APC/C via direct inhibition of the APC/C complex	Reactome	R-HSA-141430	1	20	0.0190758749423	0.0634425661644	CDC20	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-141430
+Inhibition of the proteolytic activity of APC/C required for the onset of anaphase by mitotic spindle checkpoint components	Reactome	R-HSA-141405	1	20	0.0190758749423	0.0634425661644	CDC20	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-141405
+Sema4D induced cell migration and growth-cone collapse	Reactome	R-HSA-416572	1	20	0.0190758749423	0.0634425661644	RND1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-416572
+RAF-independent MAPK1/3 activation	Reactome	R-HSA-112409	1	22	0.0208740627179	0.0634425661644	DUSP5	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-112409
+APC/C:Cdc20 mediated degradation of Cyclin B	Reactome	R-HSA-174048	1	23	0.0217719543994	0.0639378914009	CDC20	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-174048
+PIP3 activates AKT signaling	Reactome	R-HSA-1257604	2	247	0.0218852211575	0.0640004786789	CDKN1A|NR4A1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1257604
+SLC-mediated transmembrane transport	Reactome	R-HSA-425407	2	249	0.022213605526	0.0643133877014	SLC30A1|SLC43A2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-425407
+Sema4D in semaphorin signaling	Reactome	R-HSA-400685	1	24	0.0226690455356	0.0643985946644	RND1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-400685
+HSF1-dependent transactivation	Reactome	R-HSA-3371571	1	24	0.0226690455356	0.0643985946644	HSPA2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-3371571
+APC-Cdc20 mediated degradation of Nek2A	Reactome	R-HSA-179409	1	25	0.0235653368198	0.0658693752071	CDC20	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-179409
+Metal ion SLC transporters	Reactome	R-HSA-425410	1	26	0.0244608289448	0.0678276372334	SLC30A1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-425410
+TNFs bind their physiological receptors	Reactome	R-HSA-5669034	1	29	0.0271425172838	0.069709195681	DTL	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5669034
+Intracellular signaling by second messengers	Reactome	R-HSA-9006925	2	288	0.029018042159	0.071365927006	CDKN1A|NR4A1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-9006925
+Cell Cycle Checkpoints	Reactome	R-HSA-69620	2	289	0.0292022650012	0.0715608913797	CDKN1A|CDC20	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-69620
+Amino acid transport across the plasma membrane	Reactome	R-HSA-352230	1	32	0.0298170380749	0.0715608913797	SLC43A2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-352230
+Cargo concentration in the ER	Reactome	R-HSA-5694530	1	33	0.0307069554349	0.0729421193949	CTSZ	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5694530
+Activation of Matrix Metalloproteinases	Reactome	R-HSA-1592389	1	33	0.0307069554349	0.0729421193949	MMP9	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1592389
+MicroRNAs in cancer	KEGG PATHWAY	hsa05206	2	299	0.0310704062372	0.0735544310921	CDKN1A|MMP9	http://www.genome.jp/kegg-bin/show_pathway?hsa05206/hsa:1026%09red/hsa:4318%09red
+Lysosome Vesicle Biogenesis	Reactome	R-HSA-432720	1	35	0.0324844099293	0.0751274438154	CTSZ	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-432720
+Thyroid cancer	KEGG PATHWAY	hsa05216	1	37	0.0342586953703	0.078177219599	CDKN1A	http://www.genome.jp/kegg-bin/show_pathway?hsa05216/hsa:1026%09red
+Transcriptional regulation by the AP-2 (TFAP2) family of transcription factors	Reactome	R-HSA-8864260	1	38	0.0351446514114	0.0796764735581	CDKN1A	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8864260
+Negative regulation of MAPK pathway	Reactome	R-HSA-5675221	1	40	0.0369141935613	0.0806546666594	DUSP5	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5675221
+Signaling by SCF-KIT	Reactome	R-HSA-1433557	1	40	0.0369141935613	0.0806546666594	MMP9	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1433557
+Neuroactive ligand-receptor interaction	KEGG PATHWAY	hsa04080	2	338	0.0387911553252	0.0820627480437	PTGDR|GALR2	http://www.genome.jp/kegg-bin/show_pathway?hsa04080/hsa:5729%09red/hsa:8811%09red
+G1 Phase	Reactome	R-HSA-69236	1	43	0.0395625922168	0.0824418089309	CDKN1A	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-69236
+Cyclin D associated events in G1	Reactome	R-HSA-69231	1	43	0.0395625922168	0.0824418089309	CDKN1A	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-69231
+PI3K-Akt signaling pathway	KEGG PATHWAY	hsa04151	2	354	0.0421500673851	0.0848957260248	CDKN1A|NR4A1	http://www.genome.jp/kegg-bin/show_pathway?hsa04151/hsa:3164%09red/hsa:1026%09red
+Interleukin-10 signaling	Reactome	R-HSA-6783783	1	47	0.043082778567	0.0859186644201	CCL20	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6783783
+TP53 Regulates Transcription of Cell Cycle Genes	Reactome	R-HSA-6791312	1	48	0.043960863293	0.0859459574492	CDKN1A	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6791312
+Chemokine receptors bind chemokines	Reactome	R-HSA-380108	1	48	0.043960863293	0.0859459574492	CCL20	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-380108
+G alpha (z) signalling events	Reactome	R-HSA-418597	1	48	0.043960863293	0.0859459574492	RGS16	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-418597
+Intestinal immune network for IgA production	KEGG PATHWAY	hsa04672	1	49	0.0448381646343	0.0871714038701	DTL	http://www.genome.jp/kegg-bin/show_pathway?hsa04672/hsa:10673%09red
+EPH-ephrin mediated repulsion of cells	Reactome	R-HSA-3928665	1	50	0.0457146832699	0.0881368962766	MMP9	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-3928665
+Diseases of signal transduction	Reactome	R-HSA-5663202	2	374	0.0464971738232	0.0893303918323	CDKN1A|NR4A1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5663202
+SCF-beta-TrCP mediated degradation of Emi1	Reactome	R-HSA-174113	1	54	0.0492129443135	0.0925735384924	CDC20	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-174113
+Legionellosis	KEGG PATHWAY	hsa05134	1	55	0.0500855595845	0.0929587985888	HSPA2	http://www.genome.jp/kegg-bin/show_pathway?hsa05134/hsa:3306%09red
+HSP90 chaperone cycle for steroid hormone receptors (SHR)	Reactome	R-HSA-3371497	1	55	0.0500855595845	0.0929587985888	HSPA2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-3371497
+Endometrial cancer	KEGG PATHWAY	hsa05213	1	58	0.0526987362324	0.0967765710231	CDKN1A	http://www.genome.jp/kegg-bin/show_pathway?hsa05213/hsa:1026%09red
+SCF(Skp2)-mediated degradation of p27/p21	Reactome	R-HSA-187577	1	59	0.0535682409746	0.0978569441427	CDKN1A	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-187577
+Assembly of collagen fibrils and other multimeric structures	Reactome	R-HSA-2022090	1	60	0.0544369697693	0.0981557796876	MMP9	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2022090
+Longevity regulating pathway - multiple species	KEGG PATHWAY	hsa04213	1	62	0.0561721022058	0.0992278759778	HSPA2	http://www.genome.jp/kegg-bin/show_pathway?hsa04213/hsa:3306%09red
+Basal cell carcinoma	KEGG PATHWAY	hsa05217	1	63	0.0570385071914	0.099996979862	CDKN1A	http://www.genome.jp/kegg-bin/show_pathway?hsa05217/hsa:1026%09red
+Cellular responses to stress	Reactome	R-HSA-2262752	2	422	0.0575635602951	0.100003177881	HSPA2|CDKN1A	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2262752
+Collagen degradation	Reactome	R-HSA-1442490	1	64	0.0579041389168	0.100003177881	MMP9	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1442490
+p53-Dependent G1/S DNA damage checkpoint	Reactome	R-HSA-69580	1	64	0.0579041389168	0.100003177881	CDKN1A	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-69580
+p53-Dependent G1 DNA Damage Response	Reactome	R-HSA-69563	1	64	0.0579041389168	0.100003177881	CDKN1A	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-69563
+Semaphorin interactions	Reactome	R-HSA-373755	1	64	0.0579041389168	0.100003177881	RND1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-373755
+Cortisol synthesis and secretion	KEGG PATHWAY	hsa04927	1	65	0.0587689980523	0.100739386763	NR4A1	http://www.genome.jp/kegg-bin/show_pathway?hsa04927/hsa:3164%09red
+FOXO-mediated transcription	Reactome	R-HSA-9614085	1	65	0.0587689980523	0.100739386763	CDKN1A	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-9614085
+Non-small cell lung cancer	KEGG PATHWAY	hsa05223	1	66	0.0596330852678	0.100739386763	CDKN1A	http://www.genome.jp/kegg-bin/show_pathway?hsa05223/hsa:1026%09red
+G1/S DNA Damage Checkpoints	Reactome	R-HSA-69615	1	66	0.0596330852678	0.100739386763	CDKN1A	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-69615
+APC/C:Cdc20 mediated degradation of Securin	Reactome	R-HSA-174154	1	66	0.0596330852678	0.100739386763	CDC20	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-174154
+Regulation of HSF1-mediated heat shock response	Reactome	R-HSA-3371453	1	66	0.0596330852678	0.100739386763	HSPA2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-3371453
+COPII-mediated vesicle transport	Reactome	R-HSA-204005	1	68	0.0613589466156	0.101923214426	CTSZ	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-204005
+Renal cell carcinoma	KEGG PATHWAY	hsa05211	1	69	0.0622207220848	0.103108625169	CDKN1A	http://www.genome.jp/kegg-bin/show_pathway?hsa05211/hsa:1026%09red
+Cdc20:Phospho-APC/C mediated degradation of Cyclin A	Reactome	R-HSA-174184	1	71	0.0639419659517	0.10464454579	CDC20	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-174184
+APC/C:Cdh1 mediated degradation of Cdc20 and other APC/C:Cdh1 targeted proteins in late mitosis/early G1	Reactome	R-HSA-174178	1	71	0.0639419659517	0.10464454579	CDC20	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-174178
+p53 signaling pathway	KEGG PATHWAY	hsa04115	1	72	0.0648014356831	0.10464454579	CDKN1A	http://www.genome.jp/kegg-bin/show_pathway?hsa04115/hsa:1026%09red
+Melanoma	KEGG PATHWAY	hsa05218	1	72	0.0648014356831	0.10464454579	CDKN1A	http://www.genome.jp/kegg-bin/show_pathway?hsa05218/hsa:1026%09red
+Interleukin-17 signaling	Reactome	R-HSA-448424	1	72	0.0648014356831	0.10464454579	IL17RB	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-448424
+APC:Cdc20 mediated degradation of cell cycle proteins prior to satisfation of the cell cycle checkpoint	Reactome	R-HSA-179419	1	72	0.0648014356831	0.10464454579	CDC20	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-179419
+trans-Golgi Network Vesicle Budding	Reactome	R-HSA-199992	1	72	0.0648014356831	0.10464454579	CTSZ	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-199992
+Platinum drug resistance	KEGG PATHWAY	hsa01524	1	73	0.0656601381677	0.104815266433	CDKN1A	http://www.genome.jp/kegg-bin/show_pathway?hsa01524/hsa:1026%09red
+APC/C:Cdc20 mediated degradation of mitotic proteins	Reactome	R-HSA-176409	1	74	0.066518074071	0.105459178937	CDC20	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-176409
+Pancreatic cancer	KEGG PATHWAY	hsa05212	1	75	0.0673752440579	0.105615247442	CDKN1A	http://www.genome.jp/kegg-bin/show_pathway?hsa05212/hsa:1026%09red
+Glioma	KEGG PATHWAY	hsa05214	1	75	0.0673752440579	0.105615247442	CDKN1A	http://www.genome.jp/kegg-bin/show_pathway?hsa05214/hsa:1026%09red
+Activation of APC/C and APC/C:Cdc20 mediated degradation of mitotic proteins	Reactome	R-HSA-176814	1	75	0.0673752440579	0.105615247442	CDC20	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-176814
+Chronic myeloid leukemia	KEGG PATHWAY	hsa05220	1	76	0.0682316487924	0.106239882684	CDKN1A	http://www.genome.jp/kegg-bin/show_pathway?hsa05220/hsa:1026%09red
+Extra-nuclear estrogen signaling	Reactome	R-HSA-9009391	1	76	0.0682316487924	0.106239882684	MMP9	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-9009391
+The role of GTSE1 in G2/M progression after G2 checkpoint	Reactome	R-HSA-8852276	1	76	0.0682316487924	0.106239882684	CDKN1A	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8852276
+Antigen processing and presentation	KEGG PATHWAY	hsa04612	1	77	0.0690872889384	0.10661807783	HSPA2	http://www.genome.jp/kegg-bin/show_pathway?hsa04612/hsa:3306%09red
+Meiotic synapsis	Reactome	R-HSA-1221632	1	77	0.0690872889384	0.10661807783	HSPA2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1221632
+Regulation of APC/C activators between G1/S and early anaphase	Reactome	R-HSA-176408	1	79	0.0707962781167	0.108773089557	CDC20	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-176408
+Neutrophil degranulation	Reactome	R-HSA-6798695	2	478	0.0715046462918	0.109120659557	CTSZ|MMP9	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-6798695
+DNA Damage/Telomere Stress Induced Senescence	Reactome	R-HSA-2559586	1	80	0.0716496284735	0.109120659557	CDKN1A	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2559586
+Cyclin E associated events during G1/S transition 	Reactome	R-HSA-69202	1	82	0.0733540440299	0.110031066045	CDKN1A	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-69202
+Cyclin A:Cdk2-associated events at S phase entry	Reactome	R-HSA-69656	1	84	0.0750554171131	0.111382879127	CDKN1A	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-69656
+ErbB signaling pathway	KEGG PATHWAY	hsa04012	1	85	0.0759049643763	0.11145539073	CDKN1A	http://www.genome.jp/kegg-bin/show_pathway?hsa04012/hsa:1026%09red
+APC/C-mediated degradation of cell cycle proteins	Reactome	R-HSA-174143	1	85	0.0759049643763	0.11145539073	CDC20	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-174143
+Transport of bile salts and organic acids, metal ions and amine compounds	Reactome	R-HSA-425366	1	85	0.0759049643763	0.11145539073	SLC30A1	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-425366
+Regulation of mitotic cell cycle	Reactome	R-HSA-453276	1	85	0.0759049643763	0.11145539073	CDC20	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-453276
+Developmental Biology	Reactome	R-HSA-1266738	3	1082	0.0765829501328	0.111758602693	RND1|CDKN1A|MMP9	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1266738
+Colorectal cancer	KEGG PATHWAY	hsa05210	1	86	0.0767537529991	0.111758602693	CDKN1A	http://www.genome.jp/kegg-bin/show_pathway?hsa05210/hsa:1026%09red
+Cellular response to heat stress	Reactome	R-HSA-3371556	1	86	0.0767537529991	0.111758602693	HSPA2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-3371556
+Peptide hormone metabolism	Reactome	R-HSA-2980736	1	89	0.0792955736033	0.114028345512	CTSZ	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2980736
+Collagen formation	Reactome	R-HSA-1474290	1	89	0.0792955736033	0.114028345512	MMP9	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1474290
+Transcriptional regulation of granulopoiesis	Reactome	R-HSA-9616222	1	89	0.0792955736033	0.114028345512	CDKN1A	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-9616222
+Interferon gamma signaling	Reactome	R-HSA-877300	1	90	0.0801413342399	0.115006945631	MT2A	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-877300
+EPH-Ephrin signaling	Reactome	R-HSA-2682334	1	91	0.0809863395212	0.115742283997	MMP9	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2682334
+Small cell lung cancer	KEGG PATHWAY	hsa05222	1	93	0.0826740866384	0.117671092639	CDKN1A	http://www.genome.jp/kegg-bin/show_pathway?hsa05222/hsa:1026%09red
+Transcriptional regulation by RUNX3	Reactome	R-HSA-8878159	1	93	0.0826740866384	0.117671092639	CDKN1A	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8878159
+Amplification  of signal from unattached  kinetochores via a MAD2  inhibitory signal	Reactome	R-HSA-141444	1	94	0.0835168297834	0.118145759206	CDC20	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-141444
+Amplification of signal from the kinetochores	Reactome	R-HSA-141424	1	94	0.0835168297834	0.118145759206	CDC20	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-141424
+Cell Cycle, Mitotic	Reactome	R-HSA-69278	2	525	0.0839663778099	0.118540768673	CDKN1A|CDC20	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-69278
+RUNX1 regulates genes involved in megakaryocyte differentiation and platelet function	Reactome	R-HSA-8936459	1	96	0.0852000585148	0.119495652959	NR4A3	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8936459
+Pathways in cancer	KEGG PATHWAY	hsa05200	2	530	0.0853295108053	0.119495652959	CDKN1A|MMP9	http://www.genome.jp/kegg-bin/show_pathway?hsa05200/hsa:1026%09red/hsa:4318%09red
+p75 NTR receptor-mediated signalling	Reactome	R-HSA-193704	1	97	0.0860405454069	0.120249436954	OMG	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-193704
+Aldosterone synthesis and secretion	KEGG PATHWAY	hsa04925	1	98	0.0868802815196	0.120585338807	NR4A1	http://www.genome.jp/kegg-bin/show_pathway?hsa04925/hsa:3164%09red
+Viral protein interaction with cytokine and cytokine receptor	KEGG PATHWAY	hsa04061	1	100	0.0885575040119	0.121330753528	CCL20	http://www.genome.jp/kegg-bin/show_pathway?hsa04061/hsa:6364%09red
+NF-kappa B signaling pathway	KEGG PATHWAY	hsa04064	1	100	0.0885575040119	0.121330753528	DTL	http://www.genome.jp/kegg-bin/show_pathway?hsa04064/hsa:10673%09red
+TNFR2 non-canonical NF-kB pathway	Reactome	R-HSA-5668541	1	100	0.0885575040119	0.121330753528	DTL	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5668541
+Axon guidance	Reactome	R-HSA-422475	2	549	0.0905712198063	0.123361191752	RND1|MMP9	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-422475
+@@Axon guidance	KEGG PATHWAY	hsa04360	1	181	0.154024413962	0.181082756955	RND1	http://www.genome.jp/kegg-bin/show_pathway?hsa04360/hsa:27289%09red
+Parathyroid hormone synthesis, secretion and action	KEGG PATHWAY	hsa04928	1	106	0.0935712204248	0.126212343829	CDKN1A	http://www.genome.jp/kegg-bin/show_pathway?hsa04928/hsa:1026%09red
+Transport of inorganic cations/anions and amino acids/oligopeptides	Reactome	R-HSA-425393	1	107	0.0944042287741	0.127089638736	SLC43A2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-425393
+HIF-1 signaling pathway	KEGG PATHWAY	hsa04066	1	109	0.0960680132513	0.129079801589	CDKN1A	http://www.genome.jp/kegg-bin/show_pathway?hsa04066/hsa:1026%09red
+Senescence-Associated Secretory Phenotype (SASP)	Reactome	R-HSA-2559582	1	110	0.0968987906708	0.129695304436	CDKN1A	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2559582
+Mitotic Spindle Checkpoint	Reactome	R-HSA-69618	1	110	0.0968987906708	0.129695304436	CDC20	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-69618
+Leukocyte transendothelial migration	KEGG PATHWAY	hsa04670	1	112	0.0985581190964	0.131663053534	MMP9	http://www.genome.jp/kegg-bin/show_pathway?hsa04670/hsa:4318%09red
+Toxoplasmosis	KEGG PATHWAY	hsa05145	1	113	0.0993866713908	0.132009777267	HSPA2	http://www.genome.jp/kegg-bin/show_pathway?hsa05145/hsa:3306%09red
+Meiosis	Reactome	R-HSA-1500620	1	116	0.101867888318	0.134280398238	HSPA2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1500620
+Transcriptional regulation by RUNX2	Reactome	R-HSA-8878166	1	118	0.103518339394	0.135941064563	CDKN1A	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8878166
+Lysosome	KEGG PATHWAY	hsa04142	1	123	0.107631577057	0.138982518797	CTSZ	http://www.genome.jp/kegg-bin/show_pathway?hsa04142/hsa:1522%09red
+Resolution of Sister Chromatid Cohesion	Reactome	R-HSA-2500257	1	123	0.107631577057	0.138982518797	CDC20	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2500257
+Oocyte meiosis	KEGG PATHWAY	hsa04114	1	128	0.111726464252	0.142681869944	CDC20	http://www.genome.jp/kegg-bin/show_pathway?hsa04114/hsa:991%09red
+Relaxin signaling pathway	KEGG PATHWAY	hsa04926	1	130	0.113359298828	0.143712335126	MMP9	http://www.genome.jp/kegg-bin/show_pathway?hsa04926/hsa:4318%09red
+G1/S Transition	Reactome	R-HSA-69206	1	130	0.113359298828	0.143712335126	CDKN1A	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-69206
+FoxO signaling pathway	KEGG PATHWAY	hsa04068	1	132	0.114989215134	0.145249534906	CDKN1A	http://www.genome.jp/kegg-bin/show_pathway?hsa04068/hsa:1026%09red
+Spliceosome	KEGG PATHWAY	hsa03040	1	135	0.117428628919	0.147527663768	HSPA2	http://www.genome.jp/kegg-bin/show_pathway?hsa03040/hsa:3306%09red
+Apoptosis	KEGG PATHWAY	hsa04210	1	136	0.118240313197	0.14801305393	CTSZ	http://www.genome.jp/kegg-bin/show_pathway?hsa04210/hsa:1522%09red
+RHO GTPases Activate Formins	Reactome	R-HSA-5663220	1	136	0.118240313197	0.14801305393	CDC20	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5663220
+Ubiquitin mediated proteolysis	KEGG PATHWAY	hsa04120	1	137	0.119051271701	0.148228417001	CDC20	http://www.genome.jp/kegg-bin/show_pathway?hsa04120/hsa:991%09red
+Measles	KEGG PATHWAY	hsa05162	1	138	0.119861505062	0.14870518275	HSPA2	http://www.genome.jp/kegg-bin/show_pathway?hsa05162/hsa:3306%09red
+Fluid shear stress and atherosclerosis	KEGG PATHWAY	hsa05418	1	139	0.12067101391	0.149443106194	MMP9	http://www.genome.jp/kegg-bin/show_pathway?hsa05418/hsa:4318%09red
+Death Receptor Signalling	Reactome	R-HSA-73887	1	140	0.121479798874	0.149645911533	OMG	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-73887
+Degradation of the extracellular matrix	Reactome	R-HSA-1474228	1	140	0.121479798874	0.149645911533	MMP9	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1474228
+Reproduction	Reactome	R-HSA-1474165	1	141	0.122287860583	0.150090979284	HSPA2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1474165
+Breast cancer	KEGG PATHWAY	hsa05224	1	147	0.127121077634	0.154949684822	CDKN1A	http://www.genome.jp/kegg-bin/show_pathway?hsa05224/hsa:1026%09red
+Mitotic G1-G1/S phases	Reactome	R-HSA-453279	1	147	0.127121077634	0.154949684822	CDKN1A	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-453279
+Gastric cancer	KEGG PATHWAY	hsa05226	1	149	0.128726392367	0.156358759315	CDKN1A	http://www.genome.jp/kegg-bin/show_pathway?hsa05226/hsa:1026%09red
+Oxytocin signaling pathway	KEGG PATHWAY	hsa04921	1	153	0.131928415386	0.159413501925	CDKN1A	http://www.genome.jp/kegg-bin/show_pathway?hsa04921/hsa:1026%09red
+ER to Golgi Anterograde Transport	Reactome	R-HSA-199977	1	154	0.132727131765	0.160100665007	CTSZ	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-199977
+Hepatitis C	KEGG PATHWAY	hsa05160	1	155	0.133525133638	0.160506896394	CDKN1A	http://www.genome.jp/kegg-bin/show_pathway?hsa05160/hsa:1026%09red
+Cellular senescence	KEGG PATHWAY	hsa04218	1	160	0.137504447114	0.164438307889	CDKN1A	http://www.genome.jp/kegg-bin/show_pathway?hsa04218/hsa:1026%09red
+@@Cellular Senescence	Reactome	R-HSA-2559583	1	194	0.164096457844	0.188778734975	CDKN1A	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2559583
+S Phase	Reactome	R-HSA-69242	1	160	0.137504447114	0.164438307889	CDKN1A	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-69242
+Jak-STAT signaling pathway	KEGG PATHWAY	hsa04630	1	162	0.13909119265	0.165766215898	CDKN1A	http://www.genome.jp/kegg-bin/show_pathway?hsa04630/hsa:1026%09red
+Transport of small molecules	Reactome	R-HSA-382551	2	720	0.141463412575	0.168021040316	SLC30A1|SLC43A2	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-382551
+Protein processing in endoplasmic reticulum	KEGG PATHWAY	hsa04141	1	165	0.14146599084	0.168021040316	HSPA2	http://www.genome.jp/kegg-bin/show_pathway?hsa04141/hsa:3306%09red
+Hepatocellular carcinoma	KEGG PATHWAY	hsa05225	1	168	0.143834419681	0.170252986561	CDKN1A	http://www.genome.jp/kegg-bin/show_pathway?hsa05225/hsa:1026%09red
+Transport to the Golgi and subsequent modification	Reactome	R-HSA-948021	1	185	0.15713600527	0.184098601896	CTSZ	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-948021
+Kaposi sarcoma-associated herpesvirus infection	KEGG PATHWAY	hsa05167	1	186	0.157912162834	0.184098601896	CDKN1A	http://www.genome.jp/kegg-bin/show_pathway?hsa05167/hsa:1026%09red
+Separation of Sister Chromatids	Reactome	R-HSA-2467813	1	186	0.157912162834	0.184098601896	CDC20	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2467813
+Chemokine signaling pathway	KEGG PATHWAY	hsa04062	1	190	0.161009850185	0.186460658451	CCL20	http://www.genome.jp/kegg-bin/show_pathway?hsa04062/hsa:6364%09red
+G2/M Transition	Reactome	R-HSA-69275	1	193	0.163325842543	0.188778734975	CDKN1A	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-69275
+Mitotic Anaphase	Reactome	R-HSA-68882	1	194	0.164096457844	0.188778734975	CDC20	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-68882
+Interferon Signaling	Reactome	R-HSA-913531	1	194	0.164096457844	0.188778734975	MT2A	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-913531
+Mitotic Metaphase and Anaphase	Reactome	R-HSA-2555396	1	195	0.164866383072	0.189039543028	CDC20	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-2555396
+Mitotic G2-G2/M phases	Reactome	R-HSA-453274	1	195	0.164866383072	0.189039543028	CDKN1A	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-453274
+Mitotic Prometaphase	Reactome	R-HSA-68877	1	196	0.165635618826	0.189609195235	CDC20	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-68877
+Epstein-Barr virus infection	KEGG PATHWAY	hsa05169	1	201	0.169471476468	0.193047704782	CDKN1A	http://www.genome.jp/kegg-bin/show_pathway?hsa05169/hsa:1026%09red
+G alpha (q) signalling events	Reactome	R-HSA-416476	1	214	0.179364643754	0.201676562283	RGS16	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-416476
+Ub-specific processing proteases	Reactome	R-HSA-5689880	1	219	0.183139119639	0.204598438634	CDC20	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5689880
+ESR-mediated signaling	Reactome	R-HSA-8939211	1	221	0.184644179351	0.205949276969	MMP9	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8939211
+Human cytomegalovirus infection	KEGG PATHWAY	hsa05163	1	225	0.18764621496	0.208296276894	CDKN1A	http://www.genome.jp/kegg-bin/show_pathway?hsa05163/hsa:1026%09red
+RAF/MAP kinase cascade	Reactome	R-HSA-5673001	1	234	0.194361557641	0.214043740693	DUSP5	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5673001
+Transcriptional regulation by RUNX1	Reactome	R-HSA-8878171	1	235	0.195104366808	0.214183973656	NR4A3	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-8878171
+MAPK1/MAPK3 signaling	Reactome	R-HSA-5684996	1	239	0.198068950548	0.217096046585	DUSP5	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5684996
+Endocytosis	KEGG PATHWAY	hsa04144	1	244	0.201759754535	0.220793693642	HSPA2	http://www.genome.jp/kegg-bin/show_pathway?hsa04144/hsa:3306%09red
+FLT3 Signaling	Reactome	R-HSA-9607240	1	252	0.207630715847	0.225798403484	DUSP5	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-9607240
+Signaling by Nuclear Receptors	Reactome	R-HSA-9006931	1	264	0.216358519045	0.23346593683	MMP9	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-9006931
+Other interleukin signaling	Reactome	R-HSA-449836	1	275	0.224276850166	0.240889950178	DUSP5	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-449836
+MAPK family signaling cascades	Reactome	R-HSA-5683057	1	278	0.226422859353	0.242820200478	DUSP5	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5683057
+Deubiquitination	Reactome	R-HSA-5688426	1	296	0.239178220992	0.254149682153	CDC20	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5688426
+Extracellular matrix organization	Reactome	R-HSA-1474244	1	298	0.240582796739	0.254863967322	MMP9	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1474244
+Asparagine N-linked glycosylation	Reactome	R-HSA-446203	1	304	0.244781414778	0.258917727486	CTSZ	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-446203
+Antigen processing: Ubiquitination & Proteasome degradation	Reactome	R-HSA-983168	1	308	0.247567946339	0.261071652503	CDC20	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-983168
+Innate Immune System	Reactome	R-HSA-168249	2	1043	0.248453111378	0.261608722419	CTSZ|MMP9	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-168249
+RHO GTPase Effectors	Reactome	R-HSA-195258	1	321	0.25655531311	0.269325034577	CDC20	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-195258
+Human papillomavirus infection	KEGG PATHWAY	hsa05165	1	330	0.262716106821	0.275377124017	CDKN1A	http://www.genome.jp/kegg-bin/show_pathway?hsa05165/hsa:1026%09red
+Transcriptional Regulation by TP53	Reactome	R-HSA-3700989	1	359	0.282231787412	0.294061862333	CDKN1A	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-3700989
+Class I MHC mediated antigen processing & presentation	Reactome	R-HSA-983169	1	370	0.289502123559	0.301186065765	CDC20	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-983169
+M Phase	Reactome	R-HSA-68886	1	384	0.298651791467	0.309778907393	CDC20	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-68886
+Signaling by Rho GTPases	Reactome	R-HSA-194315	1	449	0.339653258195	0.34970217116	CDC20	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-194315
+Signaling by Receptor Tyrosine Kinases	Reactome	R-HSA-9006934	1	458	0.345143407618	0.354829854803	MMP9	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-9006934
+Herpes simplex virus 1 infection	KEGG PATHWAY	hsa05168	1	492	0.365486291143	0.374085968581	ZNF442	http://www.genome.jp/kegg-bin/show_pathway?hsa05168/hsa:79973%09red
+Post-translational protein modification	Reactome	R-HSA-597592	2	1412	0.37368456195	0.381355506037	CTSZ|CDC20	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-597592
+G alpha (s) signalling events	Reactome	R-HSA-418555	1	536	0.390902210582	0.397760144101	PTGDR	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-418555
+Membrane Trafficking	Reactome	R-HSA-199991	1	631	0.44244763968	0.448243896968	CTSZ	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-199991
+Vesicle-mediated transport	Reactome	R-HSA-5653656	1	669	0.461855799791	0.466548093838	CTSZ	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-5653656
+Adaptive Immune System	Reactome	R-HSA-1280218	1	748	0.500125061124	0.503015957431	CDC20	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-1280218
+Metabolism of proteins	Reactome	R-HSA-392499	2	2012	0.557258116369	0.559670489167	CTSZ|CDC20	http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=R-HSA-392499
+cellular zinc ion homeostasis	Gene Ontology	GO:0006882	5	31	1.7874748292e-10	1.24408248112e-07	MT1X|MT2A|MT1G|SLC30A1|MT1E	http://amigo.geneontology.org/amigo/term/GO:0006882
+cellular response to cadmium ion	Gene Ontology	GO:0071276	5	39	5.12217679804e-10	1.78251752572e-07	MT2A|MT1E|MT1G|MT1X|MMP9	http://amigo.geneontology.org/amigo/term/GO:0071276
+detoxification of copper ion	Gene Ontology	GO:0010273	4	16	2.84778488689e-09	3.3034304688e-07	MT2A|MT1G|MT1X|MT1E	http://amigo.geneontology.org/amigo/term/GO:0010273
+negative regulation of growth	Gene Ontology	GO:0045926	4	18	4.29399423864e-09	4.2694571287e-07	MT2A|MT1G|MT1X|MT1E	http://amigo.geneontology.org/amigo/term/GO:0045926
+cellular response to zinc ion	Gene Ontology	GO:0071294	4	25	1.38786469038e-08	1.20744228063e-06	MT2A|MT1G|MT1X|MT1E	http://amigo.geneontology.org/amigo/term/GO:0071294
+cellular response to copper ion	Gene Ontology	GO:0071280	4	29	2.38489012803e-08	1.84431503234e-06	MT2A|MT1G|MT1X|MT1E	http://amigo.geneontology.org/amigo/term/GO:0071280
+zinc ion binding	Gene Ontology	GO:0008270	8	820	6.76381186746e-07	4.70761305976e-05	NR2F6|MT2A|NR4A3|NR4A1|MMP9|MT1X|MT1E|MT1G	http://amigo.geneontology.org/amigo/term/GO:0008270
+transcription initiation from RNA polymerase II promoter	Gene Ontology	GO:0006367	4	160	1.55460917133e-05	0.000832313833266	NR2F6|NR4A3|CDKN1A|NR4A1	http://amigo.geneontology.org/amigo/term/GO:0006367
+cellular response to corticotropin-releasing hormone stimulus	Gene Ontology	GO:0071376	2	5	1.71003338708e-05	0.000850130883864	NR4A3|NR4A1	http://amigo.geneontology.org/amigo/term/GO:0071376
+nucleus	Gene Ontology	GO:0005634	15	5208	2.46005183052e-05	0.00107012254628	HSPA2|NR2F6|MT1X|ZNF442|DTL|NR4A3|CDKN1A|NR4A1|SIM2|DYRK3|PHF13|MT1E|DUSP5|MT2A|MT1G	http://amigo.geneontology.org/amigo/term/GO:0005634
+regulation of type B pancreatic cell proliferation	Gene Ontology	GO:0061469	2	7	2.92810434927e-05	0.00119880036888	NR4A3|NR4A1	http://amigo.geneontology.org/amigo/term/GO:0061469
+fat cell differentiation	Gene Ontology	GO:0045444	3	70	4.20709624093e-05	0.00162674387983	NR4A3|NR4A1|METRNL	http://amigo.geneontology.org/amigo/term/GO:0045444
+response to metal ion	Gene Ontology	GO:0010038	2	12	7.38027525175e-05	0.00256833578761	MT2A|MT1X	http://amigo.geneontology.org/amigo/term/GO:0010038
+protein binding	Gene Ontology	GO:0005515	22	11779	0.000109777600649	0.00306540412496	HSPA2|MT2A|DTL|CDKN1A|MKRN3|PTGDR|SLC30A1|MT1X|RND1|NR2F6|DUSP5|CCL20|MT1G|NR4A3|NR4A1|CTSZ|MT1E|SLC43A2|RGS16|CDC20|GALR2|MMP9	http://amigo.geneontology.org/amigo/term/GO:0005515
+glucocorticoid receptor binding	Gene Ontology	GO:0035259	2	15	0.000110107906787	0.00306540412496	NR4A3|NR4A1	http://amigo.geneontology.org/amigo/term/GO:0035259
+cytoplasm	Gene Ontology	GO:0005737	13	4624	0.000140137728457	0.00375137919253	RGS16|HSPA2|DBNDD1|MT1X|DTL|RND1|DYRK3|MT1E|DUSP5|MT2A|MT1G|SLC30A1|IL17RB	http://amigo.geneontology.org/amigo/term/GO:0005737
+RNA polymerase II transcription regulatory region sequence-specific DNA binding	Gene Ontology	GO:0000977	4	327	0.00023574866299	0.00586003819433	NR2F6|NR4A3|NR4A1|ZNF442	http://amigo.geneontology.org/amigo/term/GO:0000977
+neuropeptide binding	Gene Ontology	GO:0042923	2	24	0.000261763430961	0.00607291159829	GALR2|PTGDR2	http://amigo.geneontology.org/amigo/term/GO:0042923
+intracellular receptor signaling pathway	Gene Ontology	GO:0030522	2	26	0.000304100178435	0.00661417888095	NR4A3|NR4A1	http://amigo.geneontology.org/amigo/term/GO:0030522
+cellular response to vascular endothelial growth factor stimulus	Gene Ontology	GO:0035924	2	27	0.000326437888229	0.00668237559434	NR4A1|MT1G	http://amigo.geneontology.org/amigo/term/GO:0035924
+positive regulation of G2/M transition of mitotic cell cycle	Gene Ontology	GO:0010971	2	27	0.000326437888229	0.00668237559434	HSPA2|DTL	http://amigo.geneontology.org/amigo/term/GO:0010971
+positive regulation of vascular associated smooth muscle cell proliferation	Gene Ontology	GO:1904707	2	34	0.00050450213434	0.00976274821687	NR4A3|MMP9	http://amigo.geneontology.org/amigo/term/GO:1904707
+response to cold	Gene Ontology	GO:0009409	2	35	0.000533023609542	0.00976274821687	HSPA2|METRNL	http://amigo.geneontology.org/amigo/term/GO:0009409
+energy homeostasis	Gene Ontology	GO:0097009	2	35	0.000533023609542	0.00976274821687	NR4A3|METRNL	http://amigo.geneontology.org/amigo/term/GO:0097009
+plasma membrane	Gene Ontology	GO:0005886	12	4619	0.000580174462401	0.0103538827136	RGS16|HSPA2|PTGDR2|OMG|GALR2|DTL|IL17RB|RND1|CTSZ|PTGDR|SLC30A1|SLC43A2	http://amigo.geneontology.org/amigo/term/GO:0005886
+positive regulation of B cell proliferation	Gene Ontology	GO:0030890	2	41	0.000720209422849	0.0116573432163	CDKN1A|DTL	http://amigo.geneontology.org/amigo/term/GO:0030890
+nuclear receptor activity	Gene Ontology	GO:0004879	2	42	0.000754070650336	0.0116629593919	NR4A3|NR4A1	http://amigo.geneontology.org/amigo/term/GO:0004879
+animal organ regeneration	Gene Ontology	GO:0031100	2	42	0.000754070650336	0.0116629593919	NR4A3|CDKN1A	http://amigo.geneontology.org/amigo/term/GO:0031100
+metal ion binding	Gene Ontology	GO:0046872	8	2298	0.000960150363781	0.0142183968764	MT2A|ZNF442|PHF13|CDKN1A|MKRN3|MT1E|MT1X|MT1G	http://amigo.geneontology.org/amigo/term/GO:0046872
+transcription regulator complex	Gene Ontology	GO:0005667	3	226	0.00121143699304	0.0174400490337	NR4A3|NR4A1|SIM2	http://amigo.geneontology.org/amigo/term/GO:0005667
+nucleoplasm	Gene Ontology	GO:0005654	10	3630	0.00122781954404	0.0174400490337	SIM2|NR2F6|DTL|NR4A3|CDKN1A|NR4A1|CDC20|DYRK3|PHF13|DUSP5	http://amigo.geneontology.org/amigo/term/GO:0005654
+nuclear membrane	Gene Ontology	GO:0031965	3	237	0.00138578322577	0.0192901025027	NR4A1|SLC30A1|DTL	http://amigo.geneontology.org/amigo/term/GO:0031965
+cytokine-mediated signaling pathway	Gene Ontology	GO:0019221	3	282	0.00226054434739	0.0308497816821	CCL20|CDKN1A|MMP9	http://amigo.geneontology.org/amigo/term/GO:0019221
+negative regulation of protein binding	Gene Ontology	GO:0032091	2	77	0.0024069437351	0.0322160161467	CDKN1A|CTSZ	http://amigo.geneontology.org/amigo/term/GO:0032091
+G protein-coupled receptor signaling pathway	Gene Ontology	GO:0007186	5	1132	0.0036042049655	0.0432504595859	PTGDR|CCL20|PTGDR2|RGS16|GALR2	http://amigo.geneontology.org/amigo/term/GO:0007186
+cell division	Gene Ontology	GO:0051301	3	346	0.00399580784143	0.0455915124202	DYRK3|PHF13|CDC20	http://amigo.geneontology.org/amigo/term/GO:0051301
+neuropeptide signaling pathway	Gene Ontology	GO:0007218	2	107	0.00451971027804	0.0481677206969	GALR2|PTGDR2	http://amigo.geneontology.org/amigo/term/GO:0007218
+regulation of transcription by RNA polymerase II	Gene Ontology	GO:0006357	4	751	0.00489557771811	0.0481677206969	SIM2|CDKN1A|NR2F6|ZNF442	http://amigo.geneontology.org/amigo/term/GO:0006357
+Cul4B-RING E3 ubiquitin ligase complex	Gene Ontology	GO:0031465	1	5	0.00548674597398	0.0481677206969	DTL	http://amigo.geneontology.org/amigo/term/GO:0031465
+stress granule disassembly	Gene Ontology	GO:0035617	1	5	0.00548674597398	0.0481677206969	DYRK3	http://amigo.geneontology.org/amigo/term/GO:0035617
+semicircular canal morphogenesis	Gene Ontology	GO:0048752	1	5	0.00548674597398	0.0481677206969	NR4A3	http://amigo.geneontology.org/amigo/term/GO:0048752
+regulation of TORC1 signaling	Gene Ontology	GO:1903432	1	5	0.00548674597398	0.0481677206969	DYRK3	http://amigo.geneontology.org/amigo/term/GO:1903432
+negative regulation of neurotransmitter secretion	Gene Ontology	GO:0046929	1	5	0.00548674597398	0.0481677206969	SLC30A1	http://amigo.geneontology.org/amigo/term/GO:0046929
+glycolipid binding	Gene Ontology	GO:0051861	1	5	0.00548674597398	0.0481677206969	HSPA2	http://amigo.geneontology.org/amigo/term/GO:0051861
+positive regulation of ATPase-coupled calcium transmembrane transporter activity	Gene Ontology	GO:1901896	1	5	0.00548674597398	0.0481677206969	HSPA2	http://amigo.geneontology.org/amigo/term/GO:1901896
+positive regulation of fatty acid oxidation	Gene Ontology	GO:0046321	1	5	0.00548674597398	0.0481677206969	NR4A3	http://amigo.geneontology.org/amigo/term/GO:0046321
+cadmium ion transmembrane transport	Gene Ontology	GO:0070574	1	5	0.00548674597398	0.0481677206969	SLC30A1	http://amigo.geneontology.org/amigo/term/GO:0070574
+cellular response to prostaglandin D stimulus	Gene Ontology	GO:0071799	1	5	0.00548674597398	0.0481677206969	PTGDR	http://amigo.geneontology.org/amigo/term/GO:0071799
+regulation of meiotic nuclear division	Gene Ontology	GO:0040020	1	5	0.00548674597398	0.0481677206969	CDC20	http://amigo.geneontology.org/amigo/term/GO:0040020
+chemotaxis	Gene Ontology	GO:0006935	2	119	0.00553651962034	0.0481677206969	CCL20|PTGDR2	http://amigo.geneontology.org/amigo/term/GO:0006935
+ficolin-1-rich granule lumen	Gene Ontology	GO:1904813	2	123	0.00589665418362	0.0489368581554	CTSZ|MMP9	http://amigo.geneontology.org/amigo/term/GO:1904813
+sequence-specific DNA binding	Gene Ontology	GO:0043565	3	405	0.00616086541278	0.0489368581554	NR2F6|NR4A3|NR4A1	http://amigo.geneontology.org/amigo/term/GO:0043565
+cellular response to interleukin-3	Gene Ontology	GO:0036016	1	6	0.00639835358066	0.0489368581554	MT2A	http://amigo.geneontology.org/amigo/term/GO:0036016
+cellular response to catecholamine stimulus	Gene Ontology	GO:0071870	1	6	0.00639835358066	0.0489368581554	NR4A3	http://amigo.geneontology.org/amigo/term/GO:0071870
+negative regulation of cysteine-type endopeptidase activity involved in apoptotic signaling pathway	Gene Ontology	GO:2001268	1	6	0.00639835358066	0.0489368581554	MMP9	http://amigo.geneontology.org/amigo/term/GO:2001268
+negative regulation of plasminogen activation	Gene Ontology	GO:0010757	1	6	0.00639835358066	0.0489368581554	CTSZ	http://amigo.geneontology.org/amigo/term/GO:0010757
+adenosine metabolic process	Gene Ontology	GO:0046085	1	6	0.00639835358066	0.0489368581554	PTGDR	http://amigo.geneontology.org/amigo/term/GO:0046085
+interleukin-17 receptor activity	Gene Ontology	GO:0030368	1	6	0.00639835358066	0.0489368581554	IL17RB	http://amigo.geneontology.org/amigo/term/GO:0030368
+positive regulation of feeding behavior	Gene Ontology	GO:2000253	1	6	0.00639835358066	0.0489368581554	NR4A3	http://amigo.geneontology.org/amigo/term/GO:2000253
+immune response	Gene Ontology	GO:0006955	3	427	0.00711651309985	0.0500831719262	CCL20|PTGDR2|DTL	http://amigo.geneontology.org/amigo/term/GO:0006955
+positive regulation of glucose transmembrane transport	Gene Ontology	GO:0010828	1	7	0.00730914876492	0.0500831719262	NR4A3	http://amigo.geneontology.org/amigo/term/GO:0010828
+negative regulation of calcium ion import	Gene Ontology	GO:0090281	1	7	0.00730914876492	0.0500831719262	SLC30A1	http://amigo.geneontology.org/amigo/term/GO:0090281
+CCR6 chemokine receptor binding	Gene Ontology	GO:0031731	1	7	0.00730914876492	0.0500831719262	CCL20	http://amigo.geneontology.org/amigo/term/GO:0031731
+positive regulation of receptor binding	Gene Ontology	GO:1900122	1	7	0.00730914876492	0.0500831719262	MMP9	http://amigo.geneontology.org/amigo/term/GO:1900122
+regulation of cellular response to stress	Gene Ontology	GO:0080135	1	7	0.00730914876492	0.0500831719262	DYRK3	http://amigo.geneontology.org/amigo/term/GO:0080135
+common myeloid progenitor cell proliferation	Gene Ontology	GO:0035726	1	7	0.00730914876492	0.0500831719262	NR4A3	http://amigo.geneontology.org/amigo/term/GO:0035726
+positive regulation of cytosolic calcium ion concentration	Gene Ontology	GO:0007204	2	146	0.00816824497778	0.0519010292701	PTGDR|GALR2	http://amigo.geneontology.org/amigo/term/GO:0007204
+cellular response to UV-B	Gene Ontology	GO:0071493	1	8	0.00821913223009	0.0519010292701	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:0071493
+T cell migration	Gene Ontology	GO:0072678	1	8	0.00821913223009	0.0519010292701	CCL20	http://amigo.geneontology.org/amigo/term/GO:0072678
+endothelial cell chemotaxis	Gene Ontology	GO:0035767	1	8	0.00821913223009	0.0519010292701	NR4A1	http://amigo.geneontology.org/amigo/term/GO:0035767
+monocyte activation	Gene Ontology	GO:0042117	1	8	0.00821913223009	0.0519010292701	MT1G	http://amigo.geneontology.org/amigo/term/GO:0042117
+anaphase-promoting complex binding	Gene Ontology	GO:0010997	1	8	0.00821913223009	0.0519010292701	CDC20	http://amigo.geneontology.org/amigo/term/GO:0010997
+regulation of cell cycle G1/S phase transition	Gene Ontology	GO:1902806	1	8	0.00821913223009	0.0519010292701	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:1902806
+DNA-binding transcription factor activity, RNA polymerase II-specific	Gene Ontology	GO:0000981	4	874	0.00827731932326	0.0519010292701	NR2F6|NR4A3|NR4A1|SIM2	http://amigo.geneontology.org/amigo/term/GO:0000981
+protein kinase binding	Gene Ontology	GO:0019901	3	461	0.00875849079188	0.0526512664302	NR4A3|CDKN1A|RND1	http://amigo.geneontology.org/amigo/term/GO:0019901
+regulation of smooth muscle cell proliferation	Gene Ontology	GO:0048660	1	9	0.00912830467897	0.0526512664302	NR4A3	http://amigo.geneontology.org/amigo/term/GO:0048660
+cardiac muscle cell development	Gene Ontology	GO:0055013	1	9	0.00912830467897	0.0526512664302	ALPK2	http://amigo.geneontology.org/amigo/term/GO:0055013
+positive regulation of synapse maturation	Gene Ontology	GO:0090129	1	9	0.00912830467897	0.0526512664302	CDC20	http://amigo.geneontology.org/amigo/term/GO:0090129
+zinc ion transport	Gene Ontology	GO:0006829	1	9	0.00912830467897	0.0526512664302	SLC30A1	http://amigo.geneontology.org/amigo/term/GO:0006829
+interleukin-17-mediated signaling pathway	Gene Ontology	GO:0097400	1	9	0.00912830467897	0.0526512664302	IL17RB	http://amigo.geneontology.org/amigo/term/GO:0097400
+nuclear chromatin	Gene Ontology	GO:0000790	4	915	0.00967804126944	0.0526512664302	NR2F6|NR4A3|NR4A1|SIM2	http://amigo.geneontology.org/amigo/term/GO:0000790
+negative regulation of inclusion body assembly	Gene Ontology	GO:0090084	1	10	0.0100366668137	0.0526512664302	HSPA2	http://amigo.geneontology.org/amigo/term/GO:0090084
+meiotic spindle	Gene Ontology	GO:0072687	1	10	0.0100366668137	0.0526512664302	HSPA2	http://amigo.geneontology.org/amigo/term/GO:0072687
+cellular response to leptin stimulus	Gene Ontology	GO:0044320	1	10	0.0100366668137	0.0526512664302	NR4A3	http://amigo.geneontology.org/amigo/term/GO:0044320
+mitotic sister chromatid cohesion	Gene Ontology	GO:0007064	1	10	0.0100366668137	0.0526512664302	CDC20	http://amigo.geneontology.org/amigo/term/GO:0007064
+positive regulation of programmed cell death	Gene Ontology	GO:0043068	1	10	0.0100366668137	0.0526512664302	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:0043068
+phosphatidylinositol metabolic process	Gene Ontology	GO:0046488	1	10	0.0100366668137	0.0526512664302	GALR2	http://amigo.geneontology.org/amigo/term/GO:0046488
+positive regulation of synaptic plasticity	Gene Ontology	GO:0031915	1	10	0.0100366668137	0.0526512664302	CDC20	http://amigo.geneontology.org/amigo/term/GO:0031915
+CatSper complex	Gene Ontology	GO:0036128	1	10	0.0100366668137	0.0526512664302	HSPA2	http://amigo.geneontology.org/amigo/term/GO:0036128
+protein tyrosine/threonine phosphatase activity	Gene Ontology	GO:0008330	1	10	0.0100366668137	0.0526512664302	DUSP5	http://amigo.geneontology.org/amigo/term/GO:0008330
+negative regulation of apoptotic process	Gene Ontology	GO:0043066	3	487	0.0101525742287	0.0527327736059	CDKN1A|DYRK3|MMP9	http://amigo.geneontology.org/amigo/term/GO:0043066
+male sex determination	Gene Ontology	GO:0030238	1	11	0.0109442193359	0.0547998320705	PTGDR	http://amigo.geneontology.org/amigo/term/GO:0030238
+cell cortex region	Gene Ontology	GO:0099738	1	11	0.0109442193359	0.0547998320705	CTSZ	http://amigo.geneontology.org/amigo/term/GO:0099738
+regulation of neuroinflammatory response	Gene Ontology	GO:0150077	1	11	0.0109442193359	0.0547998320705	MMP9	http://amigo.geneontology.org/amigo/term/GO:0150077
+neutral amino acid transmembrane transporter activity	Gene Ontology	GO:0015175	1	11	0.0109442193359	0.0547998320705	SLC43A2	http://amigo.geneontology.org/amigo/term/GO:0015175
+signal transduction involved in G2 DNA damage checkpoint	Gene Ontology	GO:0072425	1	11	0.0109442193359	0.0547998320705	DTL	http://amigo.geneontology.org/amigo/term/GO:0072425
+endoderm formation	Gene Ontology	GO:0001706	1	12	0.0118509629466	0.0554812459816	DUSP5	http://amigo.geneontology.org/amigo/term/GO:0001706
+intrinsic component of membrane	Gene Ontology	GO:0031224	1	12	0.0118509629466	0.0554812459816	RGS16	http://amigo.geneontology.org/amigo/term/GO:0031224
+cyclin-dependent protein serine/threonine kinase inhibitor activity	Gene Ontology	GO:0004861	1	12	0.0118509629466	0.0554812459816	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:0004861
+sleep	Gene Ontology	GO:0030431	1	12	0.0118509629466	0.0554812459816	PTGDR	http://amigo.geneontology.org/amigo/term/GO:0030431
+Cul4A-RING E3 ubiquitin ligase complex	Gene Ontology	GO:0031464	1	12	0.0118509629466	0.0554812459816	DTL	http://amigo.geneontology.org/amigo/term/GO:0031464
+neuron remodeling	Gene Ontology	GO:0016322	1	12	0.0118509629466	0.0554812459816	RND1	http://amigo.geneontology.org/amigo/term/GO:0016322
+positive regulation of keratinocyte migration	Gene Ontology	GO:0051549	1	12	0.0118509629466	0.0554812459816	MMP9	http://amigo.geneontology.org/amigo/term/GO:0051549
+calcium channel inhibitor activity	Gene Ontology	GO:0019855	1	12	0.0118509629466	0.0554812459816	SLC30A1	http://amigo.geneontology.org/amigo/term/GO:0019855
+angiotensin maturation	Gene Ontology	GO:0002003	1	12	0.0118509629466	0.0554812459816	CTSZ	http://amigo.geneontology.org/amigo/term/GO:0002003
+positive regulation of protein phosphorylation	Gene Ontology	GO:0001934	2	178	0.0118774506484	0.0554812459816	HSPA2|MMP9	http://amigo.geneontology.org/amigo/term/GO:0001934
+MAP kinase tyrosine/serine/threonine phosphatase activity	Gene Ontology	GO:0017017	1	13	0.0127568983461	0.0562649127759	DUSP5	http://amigo.geneontology.org/amigo/term/GO:0017017
+neutral amino acid transport	Gene Ontology	GO:0015804	1	13	0.0127568983461	0.0562649127759	SLC43A2	http://amigo.geneontology.org/amigo/term/GO:0015804
+replicative senescence	Gene Ontology	GO:0090399	1	13	0.0127568983461	0.0562649127759	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:0090399
+response to hyperoxia	Gene Ontology	GO:0055093	1	13	0.0127568983461	0.0562649127759	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:0055093
+response to arsenic-containing substance	Gene Ontology	GO:0046685	1	13	0.0127568983461	0.0562649127759	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:0046685
+signal transduction	Gene Ontology	GO:0007165	4	1013	0.0136324237694	0.0562649127759	CCL20|NR4A1|METRNL|DTL	http://amigo.geneontology.org/amigo/term/GO:0007165
+cAMP response element binding	Gene Ontology	GO:0035497	1	14	0.0136620262344	0.0562649127759	NR4A3	http://amigo.geneontology.org/amigo/term/GO:0035497
+L-alpha-amino acid transmembrane transport	Gene Ontology	GO:1902475	1	14	0.0136620262344	0.0562649127759	SLC43A2	http://amigo.geneontology.org/amigo/term/GO:1902475
+DNA damage response, signal transduction by p53 class mediator resulting in transcription of p21 class mediator	Gene Ontology	GO:0006978	1	14	0.0136620262344	0.0562649127759	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:0006978
+positive regulation of G protein-coupled receptor signaling pathway	Gene Ontology	GO:0045745	1	14	0.0136620262344	0.0562649127759	PTGDR2	http://amigo.geneontology.org/amigo/term/GO:0045745
+positive regulation of ubiquitin protein ligase activity	Gene Ontology	GO:1904668	1	14	0.0136620262344	0.0562649127759	CDC20	http://amigo.geneontology.org/amigo/term/GO:1904668
+mast cell degranulation	Gene Ontology	GO:0043303	1	14	0.0136620262344	0.0562649127759	NR4A3	http://amigo.geneontology.org/amigo/term/GO:0043303
+cellular copper ion homeostasis	Gene Ontology	GO:0006878	1	14	0.0136620262344	0.0562649127759	MT2A	http://amigo.geneontology.org/amigo/term/GO:0006878
+negative regulation of DNA biosynthetic process	Gene Ontology	GO:2000279	1	14	0.0136620262344	0.0562649127759	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:2000279
+response to amyloid-beta	Gene Ontology	GO:1904645	1	14	0.0136620262344	0.0562649127759	MMP9	http://amigo.geneontology.org/amigo/term/GO:1904645
+extracellular space	Gene Ontology	GO:0005615	5	1572	0.0138824609225	0.0568364282473	CCL20|CTSZ|DTL|METRNL|MMP9	http://amigo.geneontology.org/amigo/term/GO:0005615
+response to organonitrogen compound	Gene Ontology	GO:0010243	1	15	0.0145663473105	0.0579324441608	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:0010243
+epithelial tube branching involved in lung morphogenesis	Gene Ontology	GO:0060441	1	15	0.0145663473105	0.0579324441608	CTSZ	http://amigo.geneontology.org/amigo/term/GO:0060441
+positive regulation of T cell migration	Gene Ontology	GO:2000406	1	15	0.0145663473105	0.0579324441608	CCL20	http://amigo.geneontology.org/amigo/term/GO:2000406
+negative regulation of DNA damage response, signal transduction by p53 class mediator	Gene Ontology	GO:0043518	1	15	0.0145663473105	0.0579324441608	DYRK3	http://amigo.geneontology.org/amigo/term/GO:0043518
+male germ cell nucleus	Gene Ontology	GO:0001673	1	15	0.0145663473105	0.0579324441608	HSPA2	http://amigo.geneontology.org/amigo/term/GO:0001673
+negative regulation of phosphorylation	Gene Ontology	GO:0042326	1	16	0.0154698622733	0.0582001304984	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:0042326
+regulation of dendrite development	Gene Ontology	GO:0050773	1	16	0.0154698622733	0.0582001304984	CDC20	http://amigo.geneontology.org/amigo/term/GO:0050773
+monocarboxylic acid transport	Gene Ontology	GO:0015718	1	16	0.0154698622733	0.0582001304984	SLC16A14	http://amigo.geneontology.org/amigo/term/GO:0015718
+L-amino acid transmembrane transporter activity	Gene Ontology	GO:0015179	1	16	0.0154698622733	0.0582001304984	SLC43A2	http://amigo.geneontology.org/amigo/term/GO:0015179
+mitotic chromosome condensation	Gene Ontology	GO:0007076	1	16	0.0154698622733	0.0582001304984	PHF13	http://amigo.geneontology.org/amigo/term/GO:0007076
+carboxypeptidase activity	Gene Ontology	GO:0004180	1	16	0.0154698622733	0.0582001304984	CTSZ	http://amigo.geneontology.org/amigo/term/GO:0004180
+detection of temperature stimulus involved in sensory perception of pain	Gene Ontology	GO:0050965	1	16	0.0154698622733	0.0582001304984	NR2F6	http://amigo.geneontology.org/amigo/term/GO:0050965
+positive regulation of vascular associated smooth muscle cell migration	Gene Ontology	GO:1904754	1	16	0.0154698622733	0.0582001304984	NR4A3	http://amigo.geneontology.org/amigo/term/GO:1904754
+response to corticosterone	Gene Ontology	GO:0051412	1	17	0.0163725718206	0.0587387112741	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:0051412
+cellular respiration	Gene Ontology	GO:0045333	1	17	0.0163725718206	0.0587387112741	NR4A3	http://amigo.geneontology.org/amigo/term/GO:0045333
+mitotic cell cycle arrest	Gene Ontology	GO:0071850	1	17	0.0163725718206	0.0587387112741	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:0071850
+monocyte differentiation	Gene Ontology	GO:0030224	1	17	0.0163725718206	0.0587387112741	MT1G	http://amigo.geneontology.org/amigo/term/GO:0030224
+monocarboxylic acid transmembrane transporter activity	Gene Ontology	GO:0008028	1	17	0.0163725718206	0.0587387112741	SLC16A14	http://amigo.geneontology.org/amigo/term/GO:0008028
+positive regulation of brown fat cell differentiation	Gene Ontology	GO:0090336	1	17	0.0163725718206	0.0587387112741	METRNL	http://amigo.geneontology.org/amigo/term/GO:0090336
+negative regulation of vascular associated smooth muscle cell proliferation	Gene Ontology	GO:1904706	1	18	0.0172744766501	0.0610306383171	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:1904706
+zinc ion transmembrane transport	Gene Ontology	GO:0071577	1	18	0.0172744766501	0.0610306383171	SLC30A1	http://amigo.geneontology.org/amigo/term/GO:0071577
+cell surface	Gene Ontology	GO:0009986	3	598	0.0175031893975	0.0612352063808	HSPA2|CTSZ|IL17RB	http://amigo.geneontology.org/amigo/term/GO:0009986
+cellular response to extracellular stimulus	Gene Ontology	GO:0031668	1	19	0.0181755774586	0.0629363279162	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:0031668
+positive regulation of cardiac muscle hypertrophy	Gene Ontology	GO:0010613	1	20	0.0190758749423	0.0634425661644	NR4A3	http://amigo.geneontology.org/amigo/term/GO:0010613
+response to X-ray	Gene Ontology	GO:0010165	1	20	0.0190758749423	0.0634425661644	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:0010165
+protein refolding	Gene Ontology	GO:0042026	1	20	0.0190758749423	0.0634425661644	HSPA2	http://amigo.geneontology.org/amigo/term/GO:0042026
+negative regulation of adenylate cyclase activity	Gene Ontology	GO:0007194	1	20	0.0190758749423	0.0634425661644	GALR2	http://amigo.geneontology.org/amigo/term/GO:0007194
+B cell homeostasis	Gene Ontology	GO:0001782	1	21	0.019975369797	0.0634425661644	DTL	http://amigo.geneontology.org/amigo/term/GO:0001782
+cell migration involved in sprouting angiogenesis	Gene Ontology	GO:0002042	1	21	0.019975369797	0.0634425661644	NR4A1	http://amigo.geneontology.org/amigo/term/GO:0002042
+cortical cytoskeleton organization	Gene Ontology	GO:0030865	1	21	0.019975369797	0.0634425661644	RND1	http://amigo.geneontology.org/amigo/term/GO:0030865
+negative regulation of axonogenesis	Gene Ontology	GO:0050771	1	21	0.019975369797	0.0634425661644	OMG	http://amigo.geneontology.org/amigo/term/GO:0050771
+zinc ion transmembrane transporter activity	Gene Ontology	GO:0005385	1	21	0.019975369797	0.0634425661644	SLC30A1	http://amigo.geneontology.org/amigo/term/GO:0005385
+pericentriolar material	Gene Ontology	GO:0000242	1	21	0.019975369797	0.0634425661644	DYRK3	http://amigo.geneontology.org/amigo/term/GO:0000242
+response to muscle activity	Gene Ontology	GO:0014850	1	21	0.019975369797	0.0634425661644	METRNL	http://amigo.geneontology.org/amigo/term/GO:0014850
+mitotic G2 DNA damage checkpoint	Gene Ontology	GO:0007095	1	21	0.019975369797	0.0634425661644	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:0007095
+regulation of neuron death	Gene Ontology	GO:1901214	1	21	0.019975369797	0.0634425661644	CTSZ	http://amigo.geneontology.org/amigo/term/GO:1901214
+mast cell granule	Gene Ontology	GO:0042629	1	22	0.0208740627179	0.0634425661644	NR4A3	http://amigo.geneontology.org/amigo/term/GO:0042629
+mitotic spindle assembly checkpoint	Gene Ontology	GO:0007094	1	22	0.0208740627179	0.0634425661644	CDC20	http://amigo.geneontology.org/amigo/term/GO:0007094
+peptidyl-threonine dephosphorylation	Gene Ontology	GO:0035970	1	22	0.0208740627179	0.0634425661644	DUSP5	http://amigo.geneontology.org/amigo/term/GO:0035970
+anaphase-promoting complex	Gene Ontology	GO:0005680	1	22	0.0208740627179	0.0634425661644	CDC20	http://amigo.geneontology.org/amigo/term/GO:0005680
+macrophage differentiation	Gene Ontology	GO:0030225	1	22	0.0208740627179	0.0634425661644	MMP9	http://amigo.geneontology.org/amigo/term/GO:0030225
+calcium-mediated signaling using intracellular calcium source	Gene Ontology	GO:0035584	1	22	0.0208740627179	0.0634425661644	CCL20	http://amigo.geneontology.org/amigo/term/GO:0035584
+9+0 non-motile cilium	Gene Ontology	GO:0097731	1	22	0.0208740627179	0.0634425661644	GALR2	http://amigo.geneontology.org/amigo/term/GO:0097731
+positive regulation of neural precursor cell proliferation	Gene Ontology	GO:2000179	1	22	0.0208740627179	0.0634425661644	CTSZ	http://amigo.geneontology.org/amigo/term/GO:2000179
+gastrulation	Gene Ontology	GO:0007369	1	22	0.0208740627179	0.0634425661644	NR4A3	http://amigo.geneontology.org/amigo/term/GO:0007369
+steroid hormone receptor activity	Gene Ontology	GO:0003707	1	22	0.0208740627179	0.0634425661644	NR4A3	http://amigo.geneontology.org/amigo/term/GO:0003707
+tissue regeneration	Gene Ontology	GO:0042246	1	23	0.0217719543994	0.0639378914009	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:0042246
+positive regulation of epidermal growth factor receptor signaling pathway	Gene Ontology	GO:0045742	1	23	0.0217719543994	0.0639378914009	MMP9	http://amigo.geneontology.org/amigo/term/GO:0045742
+negative regulation of intrinsic apoptotic signaling pathway	Gene Ontology	GO:2001243	1	23	0.0217719543994	0.0639378914009	MMP9	http://amigo.geneontology.org/amigo/term/GO:2001243
+transcription coactivator binding	Gene Ontology	GO:0001223	1	23	0.0217719543994	0.0639378914009	NR4A3	http://amigo.geneontology.org/amigo/term/GO:0001223
+steroid hormone mediated signaling pathway	Gene Ontology	GO:0043401	1	23	0.0217719543994	0.0639378914009	NR4A3	http://amigo.geneontology.org/amigo/term/GO:0043401
+calcium ion import	Gene Ontology	GO:0070509	1	23	0.0217719543994	0.0639378914009	SLC30A1	http://amigo.geneontology.org/amigo/term/GO:0070509
+cellular senescence	Gene Ontology	GO:0090398	1	23	0.0217719543994	0.0639378914009	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:0090398
+cellular response to DNA damage stimulus	Gene Ontology	GO:0006974	2	248	0.0220491558462	0.0642100940123	CDKN1A|DTL	http://amigo.geneontology.org/amigo/term/GO:0006974
+RNA polymerase II cis-regulatory region sequence-specific DNA binding	Gene Ontology	GO:0000978	3	656	0.0222694345345	0.0643133877014	NR2F6|NR4A3|NR4A1	http://amigo.geneontology.org/amigo/term/GO:0000978
+male meiosis I	Gene Ontology	GO:0007141	1	24	0.0226690455356	0.0643985946644	HSPA2	http://amigo.geneontology.org/amigo/term/GO:0007141
+male meiotic nuclear division	Gene Ontology	GO:0007140	1	24	0.0226690455356	0.0643985946644	HSPA2	http://amigo.geneontology.org/amigo/term/GO:0007140
+intrinsic apoptotic signaling pathway	Gene Ontology	GO:0097193	1	25	0.0235653368198	0.0658693752071	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:0097193
+synaptonemal complex	Gene Ontology	GO:0000795	1	25	0.0235653368198	0.0658693752071	HSPA2	http://amigo.geneontology.org/amigo/term/GO:0000795
+inactivation of MAPK activity	Gene Ontology	GO:0000188	1	25	0.0235653368198	0.0658693752071	DUSP5	http://amigo.geneontology.org/amigo/term/GO:0000188
+cellular response to unfolded protein	Gene Ontology	GO:0034620	1	26	0.0244608289448	0.0678276372334	HSPA2	http://amigo.geneontology.org/amigo/term/GO:0034620
+protein folding chaperone	Gene Ontology	GO:0044183	1	27	0.0253555226028	0.0689353270764	HSPA2	http://amigo.geneontology.org/amigo/term/GO:0044183
+misfolded protein binding	Gene Ontology	GO:0051787	1	27	0.0253555226028	0.0689353270764	HSPA2	http://amigo.geneontology.org/amigo/term/GO:0051787
+cellular response to fibroblast growth factor stimulus	Gene Ontology	GO:0044344	1	27	0.0253555226028	0.0689353270764	NR4A1	http://amigo.geneontology.org/amigo/term/GO:0044344
+positive regulation of reactive oxygen species metabolic process	Gene Ontology	GO:2000379	1	27	0.0253555226028	0.0689353270764	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:2000379
+embryonic pattern specification	Gene Ontology	GO:0009880	1	27	0.0253555226028	0.0689353270764	SIM2	http://amigo.geneontology.org/amigo/term/GO:0009880
+extracellular region	Gene Ontology	GO:0005576	5	1843	0.0256958774804	0.0689418689279	CCL20|CTSZ|DTL|IL17RB|MMP9	http://amigo.geneontology.org/amigo/term/GO:0005576
+perinuclear region of cytoplasm	Gene Ontology	GO:0048471	3	697	0.0260272573367	0.0689418689279	CDKN1A|CDC20|DTL	http://amigo.geneontology.org/amigo/term/GO:0048471
+CCR chemokine receptor binding	Gene Ontology	GO:0048020	1	28	0.0262494184855	0.0689418689279	CCL20	http://amigo.geneontology.org/amigo/term/GO:0048020
+histone acetyltransferase binding	Gene Ontology	GO:0035035	1	28	0.0262494184855	0.0689418689279	NR4A3	http://amigo.geneontology.org/amigo/term/GO:0035035
+cysteine-type peptidase activity	Gene Ontology	GO:0008234	1	28	0.0262494184855	0.0689418689279	CTSZ	http://amigo.geneontology.org/amigo/term/GO:0008234
+endodermal cell differentiation	Gene Ontology	GO:0035987	1	28	0.0262494184855	0.0689418689279	MMP9	http://amigo.geneontology.org/amigo/term/GO:0035987
+Cul4-RING E3 ubiquitin ligase complex	Gene Ontology	GO:0080008	1	28	0.0262494184855	0.0689418689279	DTL	http://amigo.geneontology.org/amigo/term/GO:0080008
+positive regulation of release of cytochrome c from mitochondria	Gene Ontology	GO:0090200	1	28	0.0262494184855	0.0689418689279	MMP9	http://amigo.geneontology.org/amigo/term/GO:0090200
+proteolysis involved in cellular protein catabolic process	Gene Ontology	GO:0051603	1	28	0.0262494184855	0.0689418689279	CTSZ	http://amigo.geneontology.org/amigo/term/GO:0051603
+entrainment of circadian clock by photoperiod	Gene Ontology	GO:0043153	1	29	0.0271425172838	0.069709195681	NR2F6	http://amigo.geneontology.org/amigo/term/GO:0043153
+protein serine/threonine/tyrosine kinase activity	Gene Ontology	GO:0004712	1	29	0.0271425172838	0.069709195681	DYRK3	http://amigo.geneontology.org/amigo/term/GO:0004712
+negative regulation of cyclin-dependent protein serine/threonine kinase activity	Gene Ontology	GO:0045736	1	29	0.0271425172838	0.069709195681	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:0045736
+intrinsic apoptotic signaling pathway in response to DNA damage by p53 class mediator	Gene Ontology	GO:0042771	1	29	0.0271425172838	0.069709195681	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:0042771
+feeding behavior	Gene Ontology	GO:0007631	1	29	0.0271425172838	0.069709195681	GALR2	http://amigo.geneontology.org/amigo/term/GO:0007631
+positive regulation of DNA binding	Gene Ontology	GO:0043388	1	30	0.0280348196884	0.0699363243839	MMP9	http://amigo.geneontology.org/amigo/term/GO:0043388
+cyclin-dependent protein kinase holoenzyme complex	Gene Ontology	GO:0000307	1	30	0.0280348196884	0.0699363243839	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:0000307
+mitogen-activated protein kinase binding	Gene Ontology	GO:0051019	1	30	0.0280348196884	0.0699363243839	DUSP5	http://amigo.geneontology.org/amigo/term/GO:0051019
+cyclin binding	Gene Ontology	GO:0030332	1	30	0.0280348196884	0.0699363243839	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:0030332
+adult behavior	Gene Ontology	GO:0030534	1	30	0.0280348196884	0.0699363243839	NR4A3	http://amigo.geneontology.org/amigo/term/GO:0030534
+brown fat cell differentiation	Gene Ontology	GO:0050873	1	30	0.0280348196884	0.0699363243839	METRNL	http://amigo.geneontology.org/amigo/term/GO:0050873
+platelet-derived growth factor receptor signaling pathway	Gene Ontology	GO:0048008	1	30	0.0280348196884	0.0699363243839	NR4A3	http://amigo.geneontology.org/amigo/term/GO:0048008
+cellular response to gamma radiation	Gene Ontology	GO:0071480	1	30	0.0280348196884	0.0699363243839	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:0071480
+cytoplasmic vesicle	Gene Ontology	GO:0031410	2	285	0.0284682276464	0.0707638801495	RND1|CTSZ	http://amigo.geneontology.org/amigo/term/GO:0031410
+tumor necrosis factor receptor binding	Gene Ontology	GO:0005164	1	31	0.0289263263889	0.071365927006	DTL	http://amigo.geneontology.org/amigo/term/GO:0005164
+protein kinase inhibitor activity	Gene Ontology	GO:0004860	1	31	0.0289263263889	0.071365927006	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:0004860
+ubiquitin-dependent protein catabolic process	Gene Ontology	GO:0006511	2	292	0.0297577739292	0.0715608913797	CDC20|DTL	http://amigo.geneontology.org/amigo/term/GO:0006511
+lymphocyte chemotaxis	Gene Ontology	GO:0048247	1	32	0.0298170380749	0.0715608913797	CCL20	http://amigo.geneontology.org/amigo/term/GO:0048247
+mesoderm formation	Gene Ontology	GO:0001707	1	32	0.0298170380749	0.0715608913797	NR4A3	http://amigo.geneontology.org/amigo/term/GO:0001707
+cellular response to ionizing radiation	Gene Ontology	GO:0071479	1	32	0.0298170380749	0.0715608913797	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:0071479
+chaperone cofactor-dependent protein refolding	Gene Ontology	GO:0051085	1	32	0.0298170380749	0.0715608913797	HSPA2	http://amigo.geneontology.org/amigo/term/GO:0051085
+protein heterodimerization activity	Gene Ontology	GO:0046982	2	297	0.0306930320415	0.0729421193949	SIM2|NR4A1	http://amigo.geneontology.org/amigo/term/GO:0046982
+translesion synthesis	Gene Ontology	GO:0019985	1	34	0.0315960791572	0.0742934834237	DTL	http://amigo.geneontology.org/amigo/term/GO:0019985
+protein monoubiquitination	Gene Ontology	GO:0006513	1	34	0.0315960791572	0.0742934834237	DTL	http://amigo.geneontology.org/amigo/term/GO:0006513
+establishment of cell polarity	Gene Ontology	GO:0030010	1	35	0.0324844099293	0.0751274438154	ALPK2	http://amigo.geneontology.org/amigo/term/GO:0030010
+positive regulation of cell cycle	Gene Ontology	GO:0045787	1	35	0.0324844099293	0.0751274438154	NR4A3	http://amigo.geneontology.org/amigo/term/GO:0045787
+cellular response to reactive oxygen species	Gene Ontology	GO:0034614	1	35	0.0324844099293	0.0751274438154	MMP9	http://amigo.geneontology.org/amigo/term/GO:0034614
+nuclear body	Gene Ontology	GO:0016604	2	307	0.0325984023452	0.0751274438154	SIM2|CDKN1A	http://amigo.geneontology.org/amigo/term/GO:0016604
+positive regulation of GTPase activity	Gene Ontology	GO:0043547	2	307	0.0325984023452	0.0751274438154	RGS16|CCL20	http://amigo.geneontology.org/amigo/term/GO:0043547
+disordered domain specific binding	Gene Ontology	GO:0097718	1	36	0.0333719484382	0.07640419774	HSPA2	http://amigo.geneontology.org/amigo/term/GO:0097718
+DNA damage response, detection of DNA damage	Gene Ontology	GO:0042769	1	36	0.0333719484382	0.07640419774	DTL	http://amigo.geneontology.org/amigo/term/GO:0042769
+GTPase activity	Gene Ontology	GO:0003924	2	320	0.0351435306052	0.0796764735581	RGS16|RND1	http://amigo.geneontology.org/amigo/term/GO:0003924
+intracellular membrane-bounded organelle	Gene Ontology	GO:0043231	3	788	0.0355167893456	0.0802587187811	RND1|DYRK3|CTSZ	http://amigo.geneontology.org/amigo/term/GO:0043231
+protein tyrosine/serine/threonine phosphatase activity	Gene Ontology	GO:0008138	1	39	0.0360298172469	0.0803742077045	DUSP5	http://amigo.geneontology.org/amigo/term/GO:0008138
+heart morphogenesis	Gene Ontology	GO:0003007	1	39	0.0360298172469	0.0803742077045	ALPK2	http://amigo.geneontology.org/amigo/term/GO:0003007
+negative regulation of signal transduction	Gene Ontology	GO:0009968	1	39	0.0360298172469	0.0803742077045	RGS16	http://amigo.geneontology.org/amigo/term/GO:0009968
+phosphoprotein phosphatase activity	Gene Ontology	GO:0004721	1	39	0.0360298172469	0.0803742077045	DUSP5	http://amigo.geneontology.org/amigo/term/GO:0004721
+peptide hormone binding	Gene Ontology	GO:0017046	1	40	0.0369141935613	0.0806546666594	GALR2	http://amigo.geneontology.org/amigo/term/GO:0017046
+positive regulation of ATPase activity	Gene Ontology	GO:0032781	1	40	0.0369141935613	0.0806546666594	HSPA2	http://amigo.geneontology.org/amigo/term/GO:0032781
+embryo implantation	Gene Ontology	GO:0007566	1	40	0.0369141935613	0.0806546666594	MMP9	http://amigo.geneontology.org/amigo/term/GO:0007566
+COPII-coated ER to Golgi transport vesicle	Gene Ontology	GO:0030134	1	40	0.0369141935613	0.0806546666594	CTSZ	http://amigo.geneontology.org/amigo/term/GO:0030134
+integral component of plasma membrane	Gene Ontology	GO:0005887	4	1380	0.0369667222189	0.0806546666594	SLC16A14|PTGDR2|IL17RB|GALR2	http://amigo.geneontology.org/amigo/term/GO:0005887
+response to heat	Gene Ontology	GO:0009408	1	41	0.0377977810389	0.0811952333427	HSPA2	http://amigo.geneontology.org/amigo/term/GO:0009408
+transferase activity	Gene Ontology	GO:0016740	1	41	0.0377977810389	0.0811952333427	MKRN3	http://amigo.geneontology.org/amigo/term/GO:0016740
+amino acid transport	Gene Ontology	GO:0006865	1	41	0.0377977810389	0.0811952333427	SLC43A2	http://amigo.geneontology.org/amigo/term/GO:0006865
+negative regulation of G1/S transition of mitotic cell cycle	Gene Ontology	GO:2000134	1	41	0.0377977810389	0.0811952333427	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:2000134
+mitotic spindle assembly	Gene Ontology	GO:0090307	1	41	0.0377977810389	0.0811952333427	CDC20	http://amigo.geneontology.org/amigo/term/GO:0090307
+collagen catabolic process	Gene Ontology	GO:0030574	1	42	0.0386805803631	0.0820627480437	MMP9	http://amigo.geneontology.org/amigo/term/GO:0030574
+response to UV	Gene Ontology	GO:0009411	1	42	0.0386805803631	0.0820627480437	DTL	http://amigo.geneontology.org/amigo/term/GO:0009411
+amino acid transmembrane transporter activity	Gene Ontology	GO:0015171	1	42	0.0386805803631	0.0820627480437	SLC43A2	http://amigo.geneontology.org/amigo/term/GO:0015171
+negative regulation of cell cycle	Gene Ontology	GO:0045786	1	42	0.0386805803631	0.0820627480437	NR4A1	http://amigo.geneontology.org/amigo/term/GO:0045786
+monocyte chemotaxis	Gene Ontology	GO:0002548	1	43	0.0395625922168	0.0824418089309	CCL20	http://amigo.geneontology.org/amigo/term/GO:0002548
+G protein-coupled peptide receptor activity	Gene Ontology	GO:0008528	1	43	0.0395625922168	0.0824418089309	GALR2	http://amigo.geneontology.org/amigo/term/GO:0008528
+regulation of G protein-coupled receptor signaling pathway	Gene Ontology	GO:0008277	1	43	0.0395625922168	0.0824418089309	RGS16	http://amigo.geneontology.org/amigo/term/GO:0008277
+cellular response to amino acid starvation	Gene Ontology	GO:0034198	1	44	0.0404438172826	0.0835278837647	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:0034198
+negative regulation of cell adhesion	Gene Ontology	GO:0007162	1	44	0.0404438172826	0.0835278837647	RND1	http://amigo.geneontology.org/amigo/term/GO:0007162
+neuromuscular process controlling balance	Gene Ontology	GO:0050885	1	44	0.0404438172826	0.0835278837647	NR4A3	http://amigo.geneontology.org/amigo/term/GO:0050885
+negative regulation of transcription by RNA polymerase II	Gene Ontology	GO:0000122	3	832	0.0406682084055	0.0837428196753	NR4A3|NR2F6|SIM2	http://amigo.geneontology.org/amigo/term/GO:0000122
+tau protein binding	Gene Ontology	GO:0048156	1	45	0.0413242562421	0.0840984863875	HSPA2	http://amigo.geneontology.org/amigo/term/GO:0048156
+regulation of megakaryocyte differentiation	Gene Ontology	GO:0045652	1	45	0.0413242562421	0.0840984863875	NR4A3	http://amigo.geneontology.org/amigo/term/GO:0045652
+anatomical structure development	Gene Ontology	GO:0048856	1	45	0.0413242562421	0.0840984863875	NR2F6	http://amigo.geneontology.org/amigo/term/GO:0048856
+T-tubule	Gene Ontology	GO:0030315	1	45	0.0413242562421	0.0840984863875	SLC30A1	http://amigo.geneontology.org/amigo/term/GO:0030315
+signaling receptor binding	Gene Ontology	GO:0005102	2	353	0.0419369956288	0.0848492702258	RND1|DTL	http://amigo.geneontology.org/amigo/term/GO:0005102
+enzyme binding	Gene Ontology	GO:0019899	2	353	0.0419369956288	0.0848492702258	HSPA2|CDC20	http://amigo.geneontology.org/amigo/term/GO:0019899
+cytokine receptor activity	Gene Ontology	GO:0004896	1	46	0.0422039097767	0.0848957260248	IL17RB	http://amigo.geneontology.org/amigo/term/GO:0004896
+protein serine/threonine kinase activity	Gene Ontology	GO:0004674	2	357	0.0427917604574	0.0858301593036	DYRK3|ALPK2	http://amigo.geneontology.org/amigo/term/GO:0004674
+inositol phosphate metabolic process	Gene Ontology	GO:0043647	1	47	0.043082778567	0.0859186644201	GALR2	http://amigo.geneontology.org/amigo/term/GO:0043647
+positive regulation of fibroblast proliferation	Gene Ontology	GO:0048146	1	48	0.043960863293	0.0859459574492	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:0048146
+response to hydrogen peroxide	Gene Ontology	GO:0042542	1	48	0.043960863293	0.0859459574492	NR4A3	http://amigo.geneontology.org/amigo/term/GO:0042542
+erythrocyte differentiation	Gene Ontology	GO:0030218	1	48	0.043960863293	0.0859459574492	DYRK3	http://amigo.geneontology.org/amigo/term/GO:0030218
+chemokine activity	Gene Ontology	GO:0008009	1	48	0.043960863293	0.0859459574492	CCL20	http://amigo.geneontology.org/amigo/term/GO:0008009
+establishment or maintenance of cell polarity	Gene Ontology	GO:0007163	1	49	0.0448381646343	0.0871714038701	RND1	http://amigo.geneontology.org/amigo/term/GO:0007163
+collagen-containing extracellular matrix	Gene Ontology	GO:0062023	2	370	0.0456148574317	0.0881368962766	CTSZ|MMP9	http://amigo.geneontology.org/amigo/term/GO:0062023
+neuron development	Gene Ontology	GO:0048666	1	50	0.0457146832699	0.0881368962766	NR2F6	http://amigo.geneontology.org/amigo/term/GO:0048666
+integral component of postsynaptic density membrane	Gene Ontology	GO:0099061	1	51	0.0465904198781	0.0893303918323	SLC30A1	http://amigo.geneontology.org/amigo/term/GO:0099061
+positive regulation of neuron apoptotic process	Gene Ontology	GO:0043525	1	52	0.0474653751367	0.0907579700415	CTSZ	http://amigo.geneontology.org/amigo/term/GO:0043525
+inflammatory response	Gene Ontology	GO:0006954	2	381	0.0480564398913	0.0914248005629	PTGDR|CCL20	http://amigo.geneontology.org/amigo/term/GO:0006954
+response to unfolded protein	Gene Ontology	GO:0006986	1	53	0.0483395497229	0.0914248005629	HSPA2	http://amigo.geneontology.org/amigo/term/GO:0006986
+positive regulation of protein kinase activity	Gene Ontology	GO:0045860	1	53	0.0483395497229	0.0914248005629	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:0045860
+T cell costimulation	Gene Ontology	GO:0031295	1	53	0.0483395497229	0.0914248005629	DTL	http://amigo.geneontology.org/amigo/term/GO:0031295
+symporter activity	Gene Ontology	GO:0015293	1	54	0.0492129443135	0.0925735384924	SLC16A14	http://amigo.geneontology.org/amigo/term/GO:0015293
+regulation of cyclin-dependent protein serine/threonine kinase activity	Gene Ontology	GO:0000079	1	55	0.0500855595845	0.0929587985888	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:0000079
+tertiary granule lumen	Gene Ontology	GO:1904724	1	55	0.0500855595845	0.0929587985888	MMP9	http://amigo.geneontology.org/amigo/term/GO:1904724
+cellular response to heat	Gene Ontology	GO:0034605	1	55	0.0500855595845	0.0929587985888	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:0034605
+phosphatase activity	Gene Ontology	GO:0016791	1	56	0.0509573962114	0.0940751930057	DUSP5	http://amigo.geneontology.org/amigo/term/GO:0016791
+DNA damage response, signal transduction by p53 class mediator resulting in cell cycle arrest	Gene Ontology	GO:0006977	1	56	0.0509573962114	0.0940751930057	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:0006977
+positive regulation of smooth muscle cell proliferation	Gene Ontology	GO:0048661	1	58	0.0526987362324	0.0967765710231	NR4A3	http://amigo.geneontology.org/amigo/term/GO:0048661
+positive regulation of epithelial cell proliferation	Gene Ontology	GO:0050679	1	59	0.0535682409746	0.0978569441427	NR4A3	http://amigo.geneontology.org/amigo/term/GO:0050679
+cytoskeleton	Gene Ontology	GO:0005856	2	406	0.053779187131	0.0979851158198	RND1|DYRK3	http://amigo.geneontology.org/amigo/term/GO:0005856
+learning or memory	Gene Ontology	GO:0007611	1	60	0.0544369697693	0.0981557796876	GALR2	http://amigo.geneontology.org/amigo/term/GO:0007611
+adenylate cyclase-inhibiting G protein-coupled receptor signaling pathway	Gene Ontology	GO:0007193	1	60	0.0544369697693	0.0981557796876	PTGDR2	http://amigo.geneontology.org/amigo/term/GO:0007193
+phospholipase C-activating G protein-coupled receptor signaling pathway	Gene Ontology	GO:0007200	1	60	0.0544369697693	0.0981557796876	GALR2	http://amigo.geneontology.org/amigo/term/GO:0007200
+methylated histone binding	Gene Ontology	GO:0035064	1	61	0.0553049232889	0.0981944556355	PHF13	http://amigo.geneontology.org/amigo/term/GO:0035064
+peptide binding	Gene Ontology	GO:0042277	1	61	0.0553049232889	0.0981944556355	PTGDR2	http://amigo.geneontology.org/amigo/term/GO:0042277
+negative regulation of neuron projection development	Gene Ontology	GO:0010977	1	61	0.0553049232889	0.0981944556355	CTSZ	http://amigo.geneontology.org/amigo/term/GO:0010977
+heat shock protein binding	Gene Ontology	GO:0031072	1	61	0.0553049232889	0.0981944556355	HSPA2	http://amigo.geneontology.org/amigo/term/GO:0031072
+adenylate cyclase-modulating G protein-coupled receptor signaling pathway	Gene Ontology	GO:0007188	1	61	0.0553049232889	0.0981944556355	GALR2	http://amigo.geneontology.org/amigo/term/GO:0007188
+positive regulation of T cell proliferation	Gene Ontology	GO:0042102	1	61	0.0553049232889	0.0981944556355	DTL	http://amigo.geneontology.org/amigo/term/GO:0042102
+specific granule lumen	Gene Ontology	GO:0035580	1	62	0.0561721022058	0.0992278759778	CTSZ	http://amigo.geneontology.org/amigo/term/GO:0035580
+COPII vesicle coating	Gene Ontology	GO:0048208	1	63	0.0570385071914	0.099996979862	CTSZ	http://amigo.geneontology.org/amigo/term/GO:0048208
+metallopeptidase activity	Gene Ontology	GO:0008237	1	63	0.0570385071914	0.099996979862	MMP9	http://amigo.geneontology.org/amigo/term/GO:0008237
+hippocampus development	Gene Ontology	GO:0021766	1	64	0.0579041389168	0.100003177881	NR4A3	http://amigo.geneontology.org/amigo/term/GO:0021766
+peptidyl-threonine phosphorylation	Gene Ontology	GO:0018107	1	65	0.0587689980523	0.100739386763	DYRK3	http://amigo.geneontology.org/amigo/term/GO:0018107
+rhythmic process	Gene Ontology	GO:0048511	1	66	0.0596330852678	0.100739386763	DTL	http://amigo.geneontology.org/amigo/term/GO:0048511
+extracellular matrix disassembly	Gene Ontology	GO:0022617	1	66	0.0596330852678	0.100739386763	MMP9	http://amigo.geneontology.org/amigo/term/GO:0022617
+proteolysis	Gene Ontology	GO:0006508	2	434	0.0604617865494	0.100972410691	CTSZ|MMP9	http://amigo.geneontology.org/amigo/term/GO:0006508
+cellular response to drug	Gene Ontology	GO:0035690	1	67	0.0604964012327	0.100972410691	MT2A	http://amigo.geneontology.org/amigo/term/GO:0035690
+collagen binding	Gene Ontology	GO:0005518	1	67	0.0604964012327	0.100972410691	MMP9	http://amigo.geneontology.org/amigo/term/GO:0005518
+cell chemotaxis	Gene Ontology	GO:0060326	1	67	0.0604964012327	0.100972410691	CCL20	http://amigo.geneontology.org/amigo/term/GO:0060326
+chemokine-mediated signaling pathway	Gene Ontology	GO:0070098	1	67	0.0604964012327	0.100972410691	CCL20	http://amigo.geneontology.org/amigo/term/GO:0070098
+regulation of cell growth	Gene Ontology	GO:0001558	1	68	0.0613589466156	0.101923214426	IL17RB	http://amigo.geneontology.org/amigo/term/GO:0001558
+interferon-gamma-mediated signaling pathway	Gene Ontology	GO:0060333	1	71	0.0639419659517	0.10464454579	MT2A	http://amigo.geneontology.org/amigo/term/GO:0060333
+protein phosphorylation	Gene Ontology	GO:0006468	2	451	0.0646525885266	0.10464454579	DYRK3|ALPK2	http://amigo.geneontology.org/amigo/term/GO:0006468
+chromosome segregation	Gene Ontology	GO:0007059	1	72	0.0648014356831	0.10464454579	PHF13	http://amigo.geneontology.org/amigo/term/GO:0007059
+drug binding	Gene Ontology	GO:0008144	1	72	0.0648014356831	0.10464454579	MT2A	http://amigo.geneontology.org/amigo/term/GO:0008144
+cytoplasmic stress granule	Gene Ontology	GO:0010494	1	73	0.0656601381677	0.104815266433	DYRK3	http://amigo.geneontology.org/amigo/term/GO:0010494
+positive regulation of endothelial cell proliferation	Gene Ontology	GO:0001938	1	73	0.0656601381677	0.104815266433	NR4A1	http://amigo.geneontology.org/amigo/term/GO:0001938
+positive regulation of protein catabolic process	Gene Ontology	GO:0045732	1	73	0.0656601381677	0.104815266433	DTL	http://amigo.geneontology.org/amigo/term/GO:0045732
+Ras protein signal transduction	Gene Ontology	GO:0007265	1	73	0.0656601381677	0.104815266433	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:0007265
+endoplasmic reticulum-Golgi intermediate compartment membrane	Gene Ontology	GO:0033116	1	74	0.066518074071	0.105459178937	CTSZ	http://amigo.geneontology.org/amigo/term/GO:0033116
+defense response	Gene Ontology	GO:0006952	1	74	0.066518074071	0.105459178937	IL17RB	http://amigo.geneontology.org/amigo/term/GO:0006952
+regulation of actin cytoskeleton organization	Gene Ontology	GO:0032956	1	75	0.0673752440579	0.105615247442	RND1	http://amigo.geneontology.org/amigo/term/GO:0032956
+negative regulation of protein kinase activity	Gene Ontology	GO:0006469	1	75	0.0673752440579	0.105615247442	DBNDD1	http://amigo.geneontology.org/amigo/term/GO:0006469
+DNA-binding transcription activator activity, RNA polymerase II-specific	Gene Ontology	GO:0001228	2	466	0.0684303207309	0.106311391136	NR4A3|NR4A1	http://amigo.geneontology.org/amigo/term/GO:0001228
+neutrophil chemotaxis	Gene Ontology	GO:0030593	1	77	0.0690872889384	0.10661807783	CCL20	http://amigo.geneontology.org/amigo/term/GO:0030593
+protein import into nucleus	Gene Ontology	GO:0006606	1	79	0.0707962781167	0.108773089557	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:0006606
+regulation of mitotic cell cycle phase transition	Gene Ontology	GO:1901990	1	80	0.0716496284735	0.109120659557	CDC20	http://amigo.geneontology.org/amigo/term/GO:1901990
+cellular response to interleukin-1	Gene Ontology	GO:0071347	1	80	0.0716496284735	0.109120659557	CCL20	http://amigo.geneontology.org/amigo/term/GO:0071347
+positive regulation of inflammatory response	Gene Ontology	GO:0050729	1	81	0.0725022168909	0.109755370875	IL17RB	http://amigo.geneontology.org/amigo/term/GO:0050729
+endopeptidase activity	Gene Ontology	GO:0004175	1	81	0.0725022168909	0.109755370875	MMP9	http://amigo.geneontology.org/amigo/term/GO:0004175
+neutrophil degranulation	Gene Ontology	GO:0043312	2	482	0.0725394692566	0.109755370875	CTSZ|MMP9	http://amigo.geneontology.org/amigo/term/GO:0043312
+anaphase-promoting complex-dependent catabolic process	Gene Ontology	GO:0031145	1	82	0.0733540440299	0.110031066045	CDC20	http://amigo.geneontology.org/amigo/term/GO:0031145
+calcium-mediated signaling	Gene Ontology	GO:0019722	1	82	0.0733540440299	0.110031066045	PTGDR2	http://amigo.geneontology.org/amigo/term/GO:0019722
+response to toxic substance	Gene Ontology	GO:0009636	1	82	0.0733540440299	0.110031066045	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:0009636
+protein ubiquitination	Gene Ontology	GO:0016567	2	486	0.0735792359821	0.110131501599	MKRN3|CDC20	http://amigo.geneontology.org/amigo/term/GO:0016567
+lung development	Gene Ontology	GO:0030324	1	83	0.0742051105506	0.110829950522	SIM2	http://amigo.geneontology.org/amigo/term/GO:0030324
+Schaffer collateral - CA1 synapse	Gene Ontology	GO:0098685	1	84	0.0750554171131	0.111382879127	SLC30A1	http://amigo.geneontology.org/amigo/term/GO:0098685
+spermatid development	Gene Ontology	GO:0007286	1	84	0.0750554171131	0.111382879127	HSPA2	http://amigo.geneontology.org/amigo/term/GO:0007286
+peptidase activity	Gene Ontology	GO:0008233	1	85	0.0759049643763	0.11145539073	MMP9	http://amigo.geneontology.org/amigo/term/GO:0008233
+ephrin receptor signaling pathway	Gene Ontology	GO:0048013	1	86	0.0767537529991	0.111758602693	MMP9	http://amigo.geneontology.org/amigo/term/GO:0048013
+centrosome	Gene Ontology	GO:0005813	2	506	0.0788505666043	0.114028345512	CDC20|DTL	http://amigo.geneontology.org/amigo/term/GO:0005813
+cysteine-type endopeptidase activity	Gene Ontology	GO:0004197	1	89	0.0792955736033	0.114028345512	CTSZ	http://amigo.geneontology.org/amigo/term/GO:0004197
+protein tyrosine kinase activity	Gene Ontology	GO:0004713	1	89	0.0792955736033	0.114028345512	DYRK3	http://amigo.geneontology.org/amigo/term/GO:0004713
+dephosphorylation	Gene Ontology	GO:0016311	1	91	0.0809863395212	0.115742283997	DUSP5	http://amigo.geneontology.org/amigo/term/GO:0016311
+small GTPase mediated signal transduction	Gene Ontology	GO:0007264	1	94	0.0835168297834	0.118145759206	RND1	http://amigo.geneontology.org/amigo/term/GO:0007264
+cellular response to interferon-gamma	Gene Ontology	GO:0071346	1	95	0.0843588201912	0.118613613845	CCL20	http://amigo.geneontology.org/amigo/term/GO:0071346
+negative regulation of inflammatory response	Gene Ontology	GO:0050728	1	95	0.0843588201912	0.118613613845	METRNL	http://amigo.geneontology.org/amigo/term/GO:0050728
+cellular calcium ion homeostasis	Gene Ontology	GO:0006874	1	98	0.0868802815196	0.120585338807	SLC30A1	http://amigo.geneontology.org/amigo/term/GO:0006874
+hormone activity	Gene Ontology	GO:0005179	1	98	0.0868802815196	0.120585338807	METRNL	http://amigo.geneontology.org/amigo/term/GO:0005179
+cytosol	Gene Ontology	GO:0005829	8	5095	0.0869739081626	0.120585338807	HSPA2|MT2A|DTL|CDKN1A|NR4A1|CDC20|RND1|DYRK3	http://amigo.geneontology.org/amigo/term/GO:0005829
+peptidyl-tyrosine dephosphorylation	Gene Ontology	GO:0035335	1	99	0.0877192675042	0.121330753528	DUSP5	http://amigo.geneontology.org/amigo/term/GO:0035335
+G1/S transition of mitotic cell cycle	Gene Ontology	GO:0000082	1	100	0.0885575040119	0.121330753528	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:0000082
+protein tyrosine phosphatase activity	Gene Ontology	GO:0004725	1	100	0.0885575040119	0.121330753528	DUSP5	http://amigo.geneontology.org/amigo/term/GO:0004725
+positive regulation of transcription by RNA polymerase II	Gene Ontology	GO:0045944	3	1159	0.0897642085101	0.12274241478	NR4A3|NR4A1|GALR2	http://amigo.geneontology.org/amigo/term/GO:0045944
+anchored component of membrane	Gene Ontology	GO:0031225	1	102	0.0902317311972	0.12313977434	OMG	http://amigo.geneontology.org/amigo/term/GO:0031225
+sequence-specific double-stranded DNA binding	Gene Ontology	GO:1990837	2	553	0.0916869106741	0.124636894198	NR2F6|NR4A1	http://amigo.geneontology.org/amigo/term/GO:1990837
+chaperone binding	Gene Ontology	GO:0051087	1	104	0.0919029682722	0.124687068065	HSPA2	http://amigo.geneontology.org/amigo/term/GO:0051087
+muscle contraction	Gene Ontology	GO:0006936	1	105	0.0927374671399	0.125574469123	GALR2	http://amigo.geneontology.org/amigo/term/GO:0006936
+metalloendopeptidase activity	Gene Ontology	GO:0004222	1	106	0.0935712204248	0.126212343829	MMP9	http://amigo.geneontology.org/amigo/term/GO:0004222
+DNA binding	Gene Ontology	GO:0003677	3	1209	0.0988090184427	0.131745357924	NR4A3|NR4A1|SIM2	http://amigo.geneontology.org/amigo/term/GO:0003677
+adenylate cyclase-activating G protein-coupled receptor signaling pathway	Gene Ontology	GO:0007189	1	113	0.0993866713908	0.132009777267	GALR2	http://amigo.geneontology.org/amigo/term/GO:0007189
+histone deacetylase binding	Gene Ontology	GO:0042826	1	114	0.100214483264	0.132855772099	CDC20	http://amigo.geneontology.org/amigo/term/GO:0042826
+unfolded protein binding	Gene Ontology	GO:0051082	1	115	0.101041555359	0.13369757135	HSPA2	http://amigo.geneontology.org/amigo/term/GO:0051082
+neuron projection development	Gene Ontology	GO:0031175	1	116	0.101867888318	0.134280398238	GALR2	http://amigo.geneontology.org/amigo/term/GO:0031175
+actin filament organization	Gene Ontology	GO:0007015	1	118	0.103518339394	0.135941064563	RND1	http://amigo.geneontology.org/amigo/term/GO:0007015
+cell differentiation	Gene Ontology	GO:0030154	2	596	0.103933054843	0.136228636856	SIM2|NR2F6	http://amigo.geneontology.org/amigo/term/GO:0030154
+regulation of cell cycle	Gene Ontology	GO:0051726	1	121	0.105988488513	0.138142299635	DTL	http://amigo.geneontology.org/amigo/term/GO:0051726
+spindle pole	Gene Ontology	GO:0000922	1	121	0.105988488513	0.138142299635	CDC20	http://amigo.geneontology.org/amigo/term/GO:0000922
+tumor necrosis factor-mediated signaling pathway	Gene Ontology	GO:0033209	1	121	0.105988488513	0.138142299635	DTL	http://amigo.geneontology.org/amigo/term/GO:0033209
+spindle	Gene Ontology	GO:0005819	1	122	0.106810400113	0.13895334295	CDC20	http://amigo.geneontology.org/amigo/term/GO:0005819
+DNA-binding transcription factor activity	Gene Ontology	GO:0003700	2	607	0.107136237077	0.138982518797	SIM2|NR2F6	http://amigo.geneontology.org/amigo/term/GO:0003700
+activation of MAPK activity	Gene Ontology	GO:0000187	1	123	0.107631577057	0.138982518797	DUSP5	http://amigo.geneontology.org/amigo/term/GO:0000187
+peptidyl-tyrosine phosphorylation	Gene Ontology	GO:0018108	1	124	0.108452019983	0.139782603534	DYRK3	http://amigo.geneontology.org/amigo/term/GO:0018108
+negative regulation of cell growth	Gene Ontology	GO:0030308	1	125	0.109271729529	0.140319416517	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:0030308
+cellular response to tumor necrosis factor	Gene Ontology	GO:0071356	1	125	0.109271729529	0.140319416517	CCL20	http://amigo.geneontology.org/amigo/term/GO:0071356
+chromosome	Gene Ontology	GO:0005694	1	127	0.110908951028	0.141898216756	DTL	http://amigo.geneontology.org/amigo/term/GO:0005694
+cell projection	Gene Ontology	GO:0042995	1	127	0.110908951028	0.141898216756	RND1	http://amigo.geneontology.org/amigo/term/GO:0042995
+integral component of membrane	Gene Ontology	GO:0016021	6	3643	0.112264853423	0.143106846122	SLC35F3|GALR2|DTL|SLC16A14|PTGDR|SLC43A2	http://amigo.geneontology.org/amigo/term/GO:0016021
+cell cycle arrest	Gene Ontology	GO:0007050	1	130	0.113359298828	0.143712335126	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:0007050
+DNA replication	Gene Ontology	GO:0006260	1	131	0.114174621447	0.144482793686	DTL	http://amigo.geneontology.org/amigo/term/GO:0006260
+G2/M transition of mitotic cell cycle	Gene Ontology	GO:0000086	1	133	0.115803080519	0.146012579785	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:0000086
+mitotic cell cycle	Gene Ontology	GO:0000278	1	134	0.116616218237	0.146771949174	PHF13	http://amigo.geneontology.org/amigo/term/GO:0000278
+chromatin organization	Gene Ontology	GO:0006325	1	137	0.119051271701	0.148228417001	PHF13	http://amigo.geneontology.org/amigo/term/GO:0006325
+skeletal system development	Gene Ontology	GO:0001501	1	137	0.119051271701	0.148228417001	MMP9	http://amigo.geneontology.org/amigo/term/GO:0001501
+negative regulation of neuron apoptotic process	Gene Ontology	GO:0043524	1	138	0.119861505062	0.14870518275	NR4A3	http://amigo.geneontology.org/amigo/term/GO:0043524
+growth cone	Gene Ontology	GO:0030426	1	140	0.121479798874	0.149645911533	CTSZ	http://amigo.geneontology.org/amigo/term/GO:0030426
+blood microparticle	Gene Ontology	GO:0072562	1	141	0.122287860583	0.150090979284	HSPA2	http://amigo.geneontology.org/amigo/term/GO:0072562
+extracellular exosome	Gene Ontology	GO:0070062	4	2085	0.122488040565	0.150090979284	HSPA2|CTSZ|METRNL|MMP9	http://amigo.geneontology.org/amigo/term/GO:0070062
+cell cortex	Gene Ontology	GO:0005938	1	142	0.123095199666	0.150569875163	RND1	http://amigo.geneontology.org/amigo/term/GO:0005938
+protein dephosphorylation	Gene Ontology	GO:0006470	1	149	0.128726392367	0.156358759315	DUSP5	http://amigo.geneontology.org/amigo/term/GO:0006470
+vesicle-mediated transport	Gene Ontology	GO:0016192	1	150	0.129527972992	0.156785163831	HSPA2	http://amigo.geneontology.org/amigo/term/GO:0016192
+regulation of cell shape	Gene Ontology	GO:0008360	1	150	0.129527972992	0.156785163831	RND1	http://amigo.geneontology.org/amigo/term/GO:0008360
+adherens junction	Gene Ontology	GO:0005912	1	155	0.133525133638	0.160506896394	RND1	http://amigo.geneontology.org/amigo/term/GO:0005912
+ribonucleoprotein complex	Gene Ontology	GO:1990904	1	156	0.134322421624	0.161186905949	MKRN3	http://amigo.geneontology.org/amigo/term/GO:1990904
+peptidyl-serine phosphorylation	Gene Ontology	GO:0018105	1	161	0.138298174967	0.165103824661	DYRK3	http://amigo.geneontology.org/amigo/term/GO:0018105
+actin cytoskeleton organization	Gene Ontology	GO:0030036	1	166	0.142256174006	0.168671715687	RND1	http://amigo.geneontology.org/amigo/term/GO:0030036
+serine-type endopeptidase activity	Gene Ontology	GO:0004252	1	169	0.14462248342	0.170895158676	MMP9	http://amigo.geneontology.org/amigo/term/GO:0004252
+vesicle	Gene Ontology	GO:0031982	1	173	0.147767692029	0.174315785851	RND1	http://amigo.geneontology.org/amigo/term/GO:0031982
+ATP binding	Gene Ontology	GO:0005524	3	1463	0.149958361216	0.176600709656	HSPA2|DYRK3|ALPK2	http://amigo.geneontology.org/amigo/term/GO:0005524
+protein stabilization	Gene Ontology	GO:0050821	1	183	0.155581603037	0.182605051794	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:0050821
+cytokine activity	Gene Ontology	GO:0005125	1	186	0.157912162834	0.184098601896	DTL	http://amigo.geneontology.org/amigo/term/GO:0005125
+endoplasmic reticulum to Golgi vesicle-mediated transport	Gene Ontology	GO:0006888	1	188	0.159462393882	0.185595026993	CTSZ	http://amigo.geneontology.org/amigo/term/GO:0006888
+heart development	Gene Ontology	GO:0007507	1	189	0.160236468575	0.185874303547	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:0007507
+protein C-terminus binding	Gene Ontology	GO:0008022	1	189	0.160236468575	0.185874303547	CDC20	http://amigo.geneontology.org/amigo/term/GO:0008022
+regulation of apoptotic process	Gene Ontology	GO:0042981	1	197	0.166404165706	0.190176189378	ALPK2	http://amigo.geneontology.org/amigo/term/GO:0042981
+calmodulin binding	Gene Ontology	GO:0005516	1	200	0.168705679095	0.192490414181	RGS16	http://amigo.geneontology.org/amigo/term/GO:0005516
+in utero embryonic development	Gene Ontology	GO:0001701	1	202	0.170236587959	0.19360239415	SLC30A1	http://amigo.geneontology.org/amigo/term/GO:0001701
+visual perception	Gene Ontology	GO:0007601	1	206	0.173290187029	0.196753621814	RGS16	http://amigo.geneontology.org/amigo/term/GO:0007601
+positive regulation of ERK1 and ERK2 cascade	Gene Ontology	GO:0070374	1	207	0.17405187805	0.197296591405	CCL20	http://amigo.geneontology.org/amigo/term/GO:0070374
+defense response to bacterium	Gene Ontology	GO:0042742	1	209	0.175573213758	0.198697490692	CCL20	http://amigo.geneontology.org/amigo/term/GO:0042742
+negative regulation of gene expression	Gene Ontology	GO:0010629	1	210	0.176332859632	0.199233231013	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:0010629
+cilium	Gene Ontology	GO:0005929	1	212	0.177850110384	0.200621842508	GALR2	http://amigo.geneontology.org/amigo/term/GO:0005929
+magnesium ion binding	Gene Ontology	GO:0000287	1	214	0.179364643754	0.201676562283	DYRK3	http://amigo.geneontology.org/amigo/term/GO:0000287
+nucleolus	Gene Ontology	GO:0005730	2	839	0.179793893509	0.201833144972	CDKN1A|DTL	http://amigo.geneontology.org/amigo/term/GO:0005730
+protein kinase activity	Gene Ontology	GO:0004672	1	216	0.18087646447	0.202395529375	DYRK3	http://amigo.geneontology.org/amigo/term/GO:0004672
+basolateral plasma membrane	Gene Ontology	GO:0016323	1	216	0.18087646447	0.202395529375	ALPK2	http://amigo.geneontology.org/amigo/term/GO:0016323
+axon guidance	Gene Ontology	GO:0007411	1	222	0.18539569785	0.206456649126	NR4A3	http://amigo.geneontology.org/amigo/term/GO:0007411
+cell-cell signaling	Gene Ontology	GO:0007267	1	224	0.186896715069	0.207795708767	CCL20	http://amigo.geneontology.org/amigo/term/GO:0007267
+positive regulation of cell migration	Gene Ontology	GO:0030335	1	227	0.189143200234	0.209623674144	MMP9	http://amigo.geneontology.org/amigo/term/GO:0030335
+ATPase activity	Gene Ontology	GO:0016887	1	229	0.190637503391	0.210943882925	HSPA2	http://amigo.geneontology.org/amigo/term/GO:0016887
+cell migration	Gene Ontology	GO:0016477	1	232	0.192873939368	0.213079780635	RND1	http://amigo.geneontology.org/amigo/term/GO:0016477
+ubiquitin-protein transferase activity	Gene Ontology	GO:0004842	1	233	0.193618082021	0.213562892372	DTL	http://amigo.geneontology.org/amigo/term/GO:0004842
+regulation of gene expression	Gene Ontology	GO:0010468	1	235	0.195104366808	0.214183973656	ALPK2	http://amigo.geneontology.org/amigo/term/GO:0010468
+cell cycle	Gene Ontology	GO:0007049	1	245	0.202495931013	0.220904652015	DYRK3	http://amigo.geneontology.org/amigo/term/GO:0007049
+actin cytoskeleton	Gene Ontology	GO:0015629	1	245	0.202495931013	0.220904652015	RND1	http://amigo.geneontology.org/amigo/term/GO:0015629
+extracellular matrix organization	Gene Ontology	GO:0030198	1	252	0.207630715847	0.225798403484	MMP9	http://amigo.geneontology.org/amigo/term/GO:0030198
+DNA-binding transcription repressor activity, RNA polymerase II-specific	Gene Ontology	GO:0001227	1	253	0.208361627632	0.226239770409	NR2F6	http://amigo.geneontology.org/amigo/term/GO:0001227
+MAPK cascade	Gene Ontology	GO:0000165	1	261	0.214185371482	0.232200963476	DUSP5	http://amigo.geneontology.org/amigo/term/GO:0000165
+protein deubiquitination	Gene Ontology	GO:0016579	1	262	0.214910404201	0.232263418205	CDC20	http://amigo.geneontology.org/amigo/term/GO:0016579
+lysosome	Gene Ontology	GO:0005764	1	262	0.214910404201	0.232263418205	CTSZ	http://amigo.geneontology.org/amigo/term/GO:0005764
+protein polyubiquitination	Gene Ontology	GO:0000209	1	267	0.218525823321	0.235439586736	DTL	http://amigo.geneontology.org/amigo/term/GO:0000209
+GTPase activator activity	Gene Ontology	GO:0005096	1	268	0.21924696221	0.235851446211	RGS16	http://amigo.geneontology.org/amigo/term/GO:0005096
+response to drug	Gene Ontology	GO:0042493	1	280	0.227850324332	0.243975116516	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:0042493
+cell surface receptor signaling pathway	Gene Ontology	GO:0007166	1	286	0.23211737092	0.248162350477	GALR2	http://amigo.geneontology.org/amigo/term/GO:0007166
+ubiquitin protein ligase binding	Gene Ontology	GO:0031625	1	294	0.237771119712	0.253817023496	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:0031625
+transmembrane transport	Gene Ontology	GO:0055085	1	296	0.239178220992	0.254149682153	SLC16A14	http://amigo.geneontology.org/amigo/term/GO:0055085
+endoplasmic reticulum lumen	Gene Ontology	GO:0005788	1	296	0.239178220992	0.254149682153	CTSZ	http://amigo.geneontology.org/amigo/term/GO:0005788
+endoplasmic reticulum	Gene Ontology	GO:0005783	2	1018	0.239927754027	0.254557495126	CTSZ|SLC30A1	http://amigo.geneontology.org/amigo/term/GO:0005783
+nervous system development	Gene Ontology	GO:0007399	1	305	0.245478986787	0.259261570264	SIM2	http://amigo.geneontology.org/amigo/term/GO:0007399
+neuron projection	Gene Ontology	GO:0043005	1	336	0.266795697079	0.279232789725	PTGDR2	http://amigo.geneontology.org/amigo/term/GO:0043005
+post-translational protein modification	Gene Ontology	GO:0043687	1	342	0.270853337531	0.283053938321	DTL	http://amigo.geneontology.org/amigo/term/GO:0043687
+protein-containing complex binding	Gene Ontology	GO:0044877	1	349	0.275559662322	0.287540517206	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:0044877
+GTP binding	Gene Ontology	GO:0005525	1	373	0.291472484254	0.302783356778	RND1	http://amigo.geneontology.org/amigo/term/GO:0005525
+negative regulation of cell population proliferation	Gene Ontology	GO:0008285	1	394	0.305117026168	0.316014062817	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:0008285
+nuclear speck	Gene Ontology	GO:0016607	1	400	0.308968314847	0.319527410302	DYRK3	http://amigo.geneontology.org/amigo/term/GO:0016607
+spermatogenesis	Gene Ontology	GO:0007283	1	404	0.311524303088	0.32169275215	HSPA2	http://amigo.geneontology.org/amigo/term/GO:0007283
+chromatin binding	Gene Ontology	GO:0003682	1	443	0.335968325362	0.346420673262	PHF13	http://amigo.geneontology.org/amigo/term/GO:0003682
+multicellular organism development	Gene Ontology	GO:0007275	1	462	0.347569205349	0.356796706376	GALR2	http://amigo.geneontology.org/amigo/term/GO:0007275
+cell adhesion	Gene Ontology	GO:0007155	1	478	0.357185329303	0.366128113689	OMG	http://amigo.geneontology.org/amigo/term/GO:0007155
+positive regulation of cell population proliferation	Gene Ontology	GO:0008284	1	501	0.370767490965	0.378934175788	CDC20	http://amigo.geneontology.org/amigo/term/GO:0008284
+identical protein binding	Gene Ontology	GO:0042802	2	1456	0.388234745692	0.395624279651	MKRN3|MMP9	http://amigo.geneontology.org/amigo/term/GO:0042802
+Golgi membrane	Gene Ontology	GO:0000139	1	616	0.434600648301	0.441579636814	CTSZ	http://amigo.geneontology.org/amigo/term/GO:0000139
+protein-containing complex	Gene Ontology	GO:0032991	1	623	0.438275848052	0.444664708811	CDKN1A	http://amigo.geneontology.org/amigo/term/GO:0032991
+protein homodimerization activity	Gene Ontology	GO:0042803	1	660	0.457319369293	0.462637036378	NR4A3	http://amigo.geneontology.org/amigo/term/GO:0042803
+G protein-coupled receptor activity	Gene Ontology	GO:0004930	1	739	0.495902552683	0.500214748793	PTGDR2	http://amigo.geneontology.org/amigo/term/GO:0004930
+molecular_function	Gene Ontology	GO:0003674	1	742	0.497313894036	0.500912402676	METRNL	http://amigo.geneontology.org/amigo/term/GO:0003674
+membrane	Gene Ontology	GO:0016020	2	2075	0.57434240772	0.57599757316	HSPA2|IL17RB	http://amigo.geneontology.org/amigo/term/GO:0016020
+Golgi apparatus	Gene Ontology	GO:0005794	1	1002	0.60607981484	0.606951872128	SLC30A1	http://amigo.geneontology.org/amigo/term/GO:0005794
+mitochondrion	Gene Ontology	GO:0005739	1	1258	0.690654911223	0.690654911223	NR4A1	http://amigo.geneontology.org/amigo/term/GO:0005739
+
